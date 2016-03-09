@@ -15,10 +15,6 @@
 \NeedsTeXFormat{LaTeX2e}[2007/10/19]
 \ProvidesClass{USTBThesis}[2015/12/21 v0.1 USTBthesis document class]
 
+
+
 \LoadClass[cs4size,a4paper,fancyhdr]{ctexbook}[2007/10/19]
-
-\usepackage[dvips]{graphicx}        %竖排文字
-
-\newcommand{\makecover}{%
-    \rotatebox{-90}{论文题目占空占空占空占空占空}
-}
