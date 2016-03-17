@@ -1,0 +1,40 @@
+% !Mode:: "TeX:UTF-8"
+
+%学校名称
+\university
+    {北京科技大学}
+    {University of Science and Technology Beijing}
+
+%学院
+{\school}
+    {土木与环境工程学院}
+    {School of Civil and Environmental Engineering}
+
+%专业
+\major
+    {流体力学}
+    {Fluid Dynamics}
+
+%论文题目
+\thesistitle
+    {北京科技大学博士学位论文 \LaTex 模板的写作研究}
+    {Research of USTB Doctor Thesis \LaTex Model Writing}
+
+%作者
+\thesisauthor
+    {李剑辉}
+    {Jeff Hugh}
+
+% 指导老师
+\teacher
+    {主导师}
+    {Teacher 1}
+    
+% 副指导老师
+\subteacher
+    {副导师}
+    {Teacher 2}
+    
+% 分类号
+\category{13025}
+    

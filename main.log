@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.4)  10 MAR 2016 00:13
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.24)  17 MAR 2016 21:19
 entering extended mode
-**F:/program/USTBThesis/main.tex
-(F:/program/USTBThesis/main.tex
+**D:/program/USTBThesis/main.tex
+(D:/program/USTBThesis/main.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
-(F:\program\USTBThesis\USTBThesis.cls
+(D:\program\USTBThesis\USTBThesis.cls
 Document Class: USTBThesis 2015/12/21 v0.1 USTBthesis document class
 (C:\CTEX\MiKTeX\tex\latex\ctex\ctexbook.cls
 Document Class: ctexbook 2011/03/11 v1.02c ctexbook document class
@@ -333,7 +333,8 @@ Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen139
 \Gin@req@width=\dimen140
 ))
-(F:\program\USTBThesis\main.aux)
+(D:\program\USTBThesis\main.aux (D:\program\USTBThesis\ThesisInfo.aux)
+(D:\program\USTBThesis\ThesisCover.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
@@ -412,7 +413,8 @@ LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
- (C:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
+
+(C:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count168
 \scratchdimen=\dimen141
@@ -434,29 +436,48 @@ File: extended.enc 2008/12/29 4.8.2
 (C:\CTEX\MiKTeX\tex\latex\cjk\extended.chr
 File: extended.chr 2008/12/29 4.8.2
 )
-LaTeX Font Info:    Try loading font information for C19+rm on input line 4.
+(D:\program\USTBThesis\ThesisInfo.tex) (D:\program\USTBThesis\ThesisCover.tex
+LaTeX Font Info:    Try loading font information for C19+rm on input line 11.
 
 (C:\CTEX\MiKTeX\tex\latex\ctex\fd\c19rm.fd
 File: c19rm.fd 2007/05/06 v0.8a ctex font definition file
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12.05> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 11.
 ) [1
 
-] [2]
-(F:\program\USTBThesis\main.aux) ) 
+
+
+
+] [2
+
+]
+(D:\program\USTBThesis\main.aux (D:\program\USTBThesis\ThesisInfo.aux)
+(D:\program\USTBThesis\ThesisCover.aux)) ) 
 Here is how much of TeX's memory you used:
- 8263 strings out of 495354
- 131664 string characters out of 3183860
- 175724 words of memory out of 3000000
- 11275 multiletter control sequences out of 15000+200000
- 6376 words of font info for 23 fonts, out of 3000000 for 9000
+ 8378 strings out of 495354
+ 133451 string characters out of 3183858
+ 177577 words of memory out of 3000000
+ 11357 multiletter control sequences out of 15000+200000
+ 12390 words of font info for 43 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,5n,47p,897b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Font
-s/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WIND
-OWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/CTEX/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb>
-Output written on main.pdf (2 pages, 36993 bytes).
+ 41i,5n,47p,897b,412s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Windows/Fonts/simsun.ttc><C:/Wind
+ows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc>
+<C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/sim
+sun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/F
+onts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/W
+indows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.t
+tc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/
+simsun.ttc><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/CTEX/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+Output written on main.pdf (2 pages, 69402 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
+ 89 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
