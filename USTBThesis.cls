@@ -18,19 +18,29 @@
 \LoadClass[cs4size,a4paper,fancyhdr]{ctexbook}[2007/10/19]
 
 \usepackage[dvips]{graphicx}        %竖排文字
+\usepackage{ulem}               %下划线强调
+\usepackage{fancyhdr}           %页眉页脚
+\usepackage{mathptmx}   %是英文字体为Times New Roman
+\usepackage{tabu}  %表格
+\usepackage{booktabs}   %表格
+\usepackage{multirow}   %表格合并
+\usepackage{multicol}   %表格合并
+\usepackage{longtable}  %表格合并
+\usepackage{rotating}   %表格合并
+\usepackage[top=30mm, bottom=20mm, left=30mm, right=30mm]{geometry}  %页面边距设置
+\usepackage{graphicx}   %插图
+\usepackage{amsmath}    %公式换行
 
 
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%论文信息%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+%%%%%%%%%%%%%%%%%%%%%%%%%论文信息%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %学校
 \def\UniversityCN{北京科技大学}
-\def\UniversityEN{University of Science and Technology Beijing}    
+\def\UniversityEN{University of Science and Technology Beijing}
 \newcommand{\university}[2]{%
     \def\UniversityCN{#1}
-    \def\UniversityEN{#2}    
+    \def\UniversityEN{#2}
 }
-    
+
 %学院
 \def\SchoolCN{土木与环境工程学院}
 \def\SchoolEN{School of Civil and Environmental Engineering}
@@ -77,20 +87,24 @@
 \def\TeacherCN{}
 \def\TeacherEN{}
 \def\TeacherDepartment{}
-\newcommand{\teacher}[3]{%
+\def\TeacherJobtitle{}
+\newcommand{\teacher}[4]{%
     \def\TeacherCN{#1}
     \def\TeacherEN{#2}
     \def\TeacherDepartment{#3}
+    \def\TeacherJobtitle{#4}
 }
 
 % 副指导老师
 \def\SubTeacherCN{}
 \def\SubTeacherEN{}
 \def\SubTeacherDepartment{}
-\newcommand{\subteacher}[3]{%
+\def\SubTeacherJobtitle{}
+\newcommand{\subteacher}[4]{%
     \def\SubTeacherCN{#1}
     \def\SubTeacherEN{#2}
     \def\SubTeacherDepartment{#3}
+    \def\SubTeacherJobtitle{#4}
 }
 
 % 分类号
@@ -109,3 +123,17 @@
     \def\ThesisDay{#3}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%定义标题格式%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\renewcommand{\section}{%
+%    
+%}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%定义致谢%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newenvironment{thanks}[2][2em]{%
+%\heiti \zihao{2} \chapter*{致 \qquad 谢} \list{}{%
+%    \itemindent=#1 \listparindent=\itemindent%
+%    \leftmargin=#2 \rightmargin=\leftmargin%
+%    \parsep=0pt}\songti\item}{\endlist}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

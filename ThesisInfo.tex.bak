@@ -1,40 +1,31 @@
 % !Mode:: "TeX:UTF-8"
 
 %学校名称
-\university
-    {北京科技大学}
-    {University of Science and Technology Beijing}
+\university{北京科技大学}{University of Science and Technology Beijing}
 
 %学院
-{\school}
-    {土木与环境工程学院}
-    {School of Civil and Environmental Engineering}
+\school{土木与环境工程学院}{School of Civil and Environmental Engineering}
 
 %专业
-\major
-    {流体力学}
-    {Fluid Dynamics}
+\major{流体力学}{Fluid Dynamics}
 
-%论文题目
-\thesistitle
-    {北京科技大学博士学位论文 \LaTex 模板的写作研究}
-    {Research of USTB Doctor Thesis \LaTex Model Writing}
+%论文题目，前两个是主标题中英文，后两个是副标题中英文
+\thesistitle{北京科技大学博士学位论文 \LaTeX 模板的写作研究}{Research of USTB Doctor Thesis \LaTeX Model Writing}{\LaTeX 的学习应用}{Use and Study of \LaTeX}
 
 %作者
-\thesisauthor
-    {李剑辉}
-    {Jeff Hugh}
+\thesisauthor{李剑辉}{Jeff Hugh}
 
-% 指导老师
-\teacher
-    {主导师}
-    {Teacher 1}
+%学号
+\authorid{B20160001}
+
+% 指导老师，第三个为指导老师单位
+\teacher{主导师}{Teacher 1}{北京科技大学}
     
-% 副指导老师
-\subteacher
-    {副导师}
-    {Teacher 2}
+% 副指导老师，第三个为副指导老师单位
+\subteacher{副导师}{Teacher 2}{北京科技大学}
     
 % 分类号
-\category{13025}
-    
+\category{TP312}
+
+%论文提交日期
+\thesisdate{2016}{04}{25}

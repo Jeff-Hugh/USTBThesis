@@ -2,14 +2,13 @@
 
 \begin{document}
 
+%论文信息
 \include{ThesisInfo}
-\makecover
 
-\newpage
-this is a test.
+%论文封面
+\include{ThesisCover}
 
-\university{北京科技大学}{University of Science and Technology Beijing}
-
-\UniversityCN
+%致谢
+\include{Thanks}
 
 \end{document}

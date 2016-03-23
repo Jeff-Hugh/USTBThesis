@@ -3,4 +3,143 @@
 %论文封面
 \newcommand{\makecover}{%
     \rotatebox{-90}{\ThesisTitleCN}
+    \rotatebox{-90}{\AuthorCN}
+    \rotatebox{-90}{北京科技大学}
 }
+\makecover
+\pagestyle{empty}
+
+\newpage
+\pagestyle{empty}
+
+%论文第二封面
+\begin{titlepage}
+\begin{center}
+
+\hfill
+\newlength{\Mycode} 
+\settowidth{\Mycode}{密 \qquad 级：\qquad 公 \qquad 开 \qquad}
+\begin{minipage}[t]{\Mycode}
+密 \qquad 级：\uline{\qquad 公 \qquad 开 \qquad}
+\end{minipage}
+\vspace{140mm}
+
+%论文主标题
+\centerline{\zihao{-3} 论文题目：\zihao{-2} \textbf{\ThesisTitleCN}} \par    %强制只使用一行
+%\zihao{-3} 论文题目：\zihao{-2} \textbf{\ThesisTitleCN} \par     %可以分行
+\vspace{10mm}
+
+%论文副标题，没用请注释掉
+\centerline{\zihao{3} —— \textbf{\ThesisSubTitleCN}} \par
+\vspace{30mm}
+
+\zihao{-3}
+
+\begin{tabular}{rc}
+学 \qquad 号：& \underline{\makebox[5cm]{\StudentID}} \\
+作 \qquad 者：& \underline{\makebox[5cm]{\AuthorCN}}\\
+专业名称：& \underline{\makebox[5cm]{\MajorCN}}
+\end{tabular}
+\vspace{10mm}
+
+\ThesisYear 年 \ThesisMonth 月 \ThesisDay 日
+
+\end{center}
+\end{titlepage}
+
+\newpage
+\pagestyle{empty}
+
+%论文第三封面
+\begin{titlepage}
+\begin{center}
+\qquad
+\vspace{10mm}
+
+\zihao{-2}
+%论文中文主标题
+\centerline{\ThesisTitleCN} \par    %强制只使用一行
+%\ThesisTitleCN \par     %可以分行
+\vspace{10mm}
+
+%论文中文副标题，没用请注释掉
+\centerline{\ThesisSubTitleCN} \par
+\vspace{20mm}
+
+%论文英文主标题
+\centerline{\ThesisTitleEN} \par    %强制只使用一行
+%\ThesisTitleEN \par     %可以分行
+\vspace{10mm}
+
+%论文英文副标题，没用请注释掉
+\centerline{\ThesisSubTitleEN} \par
+\vspace{40mm}
+
+\zihao{-4}
+研究生姓名：\AuthorCN \par
+\vspace{3mm}
+指导教室姓名：\TeacherCN \par
+\vspace{3mm}
+\UniversityCN \SchoolCN \par
+\vspace{3mm}
+北京 100083，中国 \par
+\vspace{8mm}
+
+Doctor Degree Candidate：\AuthorEN \par
+\vspace{3mm}
+Supervisor：\TeacherEN \par
+\vspace{3mm}
+\SchoolEN \par
+\vspace{3mm}
+\UniversityEN \par
+\vspace{3mm}
+30 Xueyuan Road, Haidian District \par
+\vspace{3mm}
+Beijing 100083, P.R.CHINA
+
+\end{center}
+\end{titlepage}
+
+\newpage
+\pagestyle{empty}
+
+%论文第四封面
+\begin{titlepage}
+\begin{center}
+
+\begin{tabular}{rccrc}
+\zihao{-4} 分类号：& \zihao{5} \underline{\makebox[2cm]{\ThesisCategory}} & \qquad \qquad &\zihao{-4} 密 \qquad 级： & \zihao{5} \underline{\makebox[2cm]{公开}} \\
+\vspace{5mm}
+\zihao{-4}U D C：& \zihao{5} \underline{\makebox[2cm]{}} & \qquad \qquad & \zihao{-4} 单位代码： & \zihao{5} \underline{\makebox[2cm]{10008}}
+\end{tabular}
+\par
+\vspace{30mm}
+
+\zihao{-2} \textbf{北京科技大学博士学位论文} \par
+\vspace{30mm}
+
+\zihao{4}
+%论文主标题
+\centerline{ \textbf{论文题目：} \ThesisTitleCN } \par    %强制只使用一行
+%\textbf{论文题目：} \ThesisTitleCN \par     %可以分行
+\vspace{5mm}
+%论文副标题，没用请注释掉
+\centerline{ —— \ThesisSubTitleCN} \par
+\vspace{10mm}
+
+\centerline{ \textbf{作者：} \AuthorCN } \par
+\vspace{50mm}
+
+\begin{tabular}{rcrl}
+\textbf{指导 \qquad 教师：} & \zihao{5} \underline{\makebox[2cm]{\TeacherCN \qquad \TeacherJobtitle}} & \zihao{4} \textbf{单位：} & \zihao{5} \underline{\makebox[2cm]{\TeacherDepartment}} \\
+\zihao{4} \textbf{指导小组成员：} & \zihao{5} \underline{\makebox[2cm]{\SubTeacherCN \qquad \TeacherJobtitle}} & \zihao{4} \textbf{单位：} & \zihao{5} \underline{\makebox[2cm]{\SubTeacherDepartment}} \\
+\zihao{4} \textbf{论文提交日期：} & \multicolumn{3}{l}{\ThesisYear 年 \ThesisMonth 月 \ThesisDay 日} \\
+\textbf{学位授予单位：} & \multicolumn{3}{l}{\textbf{北 \quad 京 \quad 科 \quad 技 \quad 大 \quad 学}} 
+\end{tabular}
+
+
+\ThesisYear 年 \ThesisMonth 月 \ThesisDay 日
+
+\end{center}
+\end{titlepage}
+
