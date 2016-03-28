@@ -123,3 +123,25 @@
     \def\ThesisDay{#3}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%定义标题格式%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\renewcommand{\section}{%
+%
+%}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%定义致谢%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{USTBthanks}{%
+\heiti \zihao{2} \chapter*{致 \qquad 谢} \par 
+\songti \zihao{4}}{\par}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%定义摘要%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{USTBAbstractCN}{%
+\heiti \zihao{2} \chapter*{摘 \qquad 要} \par
+\songti \zihao{4}}{\par }
+
+\newenvironment{USTBAbstractEN}{%
+\heiti \zihao{2} \chapter*{Abstract} \par
+\songti \zihao{4}}{\par }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

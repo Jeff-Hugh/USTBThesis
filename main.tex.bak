@@ -1,6 +1,7 @@
 \documentclass{USTBThesis}
 
 \begin{document}
+\fontspec{Times New Roman}
 
 %论文信息
 \include{ThesisInfo}
@@ -9,6 +10,10 @@
 \include{ThesisCover}
 
 %致谢
-\include{Thanks}
+\include{MyThanks}
+
+%摘要
+\include{MyAbstract}
+
 
 \end{document}

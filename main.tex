@@ -8,7 +8,34 @@
 %论文封面
 \include{ThesisCover}
 
+\pagenumbering{Roman}
+\setcounter{page}{1}
 %致谢
-%\include{MyThanks}
+\include{MyThanks}
+
+%摘要
+\include{MyAbstract}
+
+%序
+\include{MyPreface}
+
+%目录
+\tableofcontents
+
+%表格目录，如果不使用请注释掉
+\listoftables
+
+%图像目录，如果不使用请注释掉
+\listoffigures
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+%第一章
+\include{chapter1}
+
+%第二章
+\include{chapter2}
+
+
 
 \end{document}

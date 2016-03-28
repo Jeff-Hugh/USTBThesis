@@ -1,0 +1,13 @@
+% !Mode:: "TeX:UTF-8"
+
+\begin{USTBAbstractCN}
+本文基于\LaTeX 使用手册，依据北京科技大学博士学位论文Word模板，
+
+
+\vskip 21bp
+\heiti \zihao{-4}
+% 在关键词冒号后添加你的关键词，使用全角逗号分割
+\textbf{关键词：\LaTeX ，博士论文，北京科技大学}
+
+\end{USTBAbstractCN}
+

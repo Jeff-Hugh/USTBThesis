@@ -31,7 +31,6 @@
 \usepackage{graphicx}   %插图
 \usepackage{amsmath}    %公式换行
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%论文信息%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %学校
 \def\UniversityCN{北京科技大学}
@@ -126,14 +125,28 @@
 
 %%%%%%%%%%%%%%%%%%%%定义标题格式%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\renewcommand{\section}{%
-%    
+%
 %}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%定义致谢%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\newenvironment{thanks}[2][2em]{%
-%\heiti \zihao{2} \chapter*{致 \qquad 谢} \list{}{%
-%    \itemindent=#1 \listparindent=\itemindent%
-%    \leftmargin=#2 \rightmargin=\leftmargin%
-%    \parsep=0pt}\songti\item}{\endlist}
+\newenvironment{USTBthanks}{%
+\heiti \zihao{2} \chapter*{致 \qquad 谢} \par 
+\songti \zihao{-4}}{\par}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%定义摘要%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{USTBAbstractCN}{%
+\heiti \zihao{2} \chapter*{摘 \qquad 要} \par
+\songti \zihao{-4}}{\par }
+
+\newenvironment{USTBAbstractEN}{%
+\heiti \zihao{2} \chapter*{Abstract} \par
+\zihao{-4}}{\par }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%定义致谢%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{USTBPreface}{%
+\heiti \zihao{2} \chapter*{序} \par
+\songti \zihao{-4}}{\par}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
