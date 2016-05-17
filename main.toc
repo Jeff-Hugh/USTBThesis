@@ -1,7 +1,7 @@
-\contentsline {chapter}{\numberline {第一章\hspace {0.3em}}引言}{3}
+\contentsline {chapter}{\numberline {1\ignorespaces \hspace {0.3em}}引言}{3}
 \contentsline {section}{\numberline {1.1}项目原因}{3}
 \contentsline {section}{\numberline {1.2}参考资料}{3}
-\contentsline {chapter}{\numberline {第二章\hspace {0.3em}}\LaTeX 基本使用}{5}
+\contentsline {chapter}{\numberline {2\ignorespaces \hspace {0.3em}}\LaTeX 基本使用}{5}
 \contentsline {section}{\numberline {2.1}\LaTeX 的由来}{5}
 \contentsline {section}{\numberline {2.2}汉化}{5}
 \contentsline {subsection}{\numberline {2.2.1}CCT}{5}

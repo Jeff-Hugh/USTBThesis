@@ -124,14 +124,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%定义标题格式%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\renewcommand{\section}{%
-%
-%}
+\CTEXsetup[number={\arabic{chapter}}]{chapter}
+\CTEXsetup[name={,}]{chapter}
+\CTEXsetup[format={\raggedright}]{chapter}
+\CTEXsetup[format={\Large\bf}]{section}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%定义致谢%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newenvironment{USTBthanks}{%
-\heiti \zihao{2} \chapter*{致 \qquad 谢} \par 
+\heiti \zihao{2} \chapter*{致 \qquad 谢} \par
 \songti \zihao{-4}}{\par}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
