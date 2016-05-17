@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.24)  17 MAY 2016 22:29
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2016.1.31)  18 MAY 2016 01:32
 entering extended mode
-**D:/program/USTBThesis/main.tex
-(D:/program/USTBThesis/main.tex
+**main.tex
+(F:\program\USTBThesis\main.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
-(D:\program\USTBThesis\USTBThesis.cls
+(F:\program\USTBThesis\USTBThesis.cls
 Document Class: USTBThesis 2015/12/21 v0.1 USTBthesis document class
 (C:\CTEX\MiKTeX\tex\latex\ctex\ctexbook.cls
 Document Class: ctexbook 2011/03/11 v1.02c ctexbook document class
@@ -53,18 +53,13 @@ Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 (C:\CTEX\MiKTeX\tex\latex\00miktex\color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 130.
+Package color Info: Driver file: dvips.def on input line 130.
 
-(C:\CTEX\MiKTeX\tex\latex\pdftex-def\pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(C:\CTEX\MiKTeX\tex\generic\oberdiek\infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+(C:\CTEX\MiKTeX\tex\latex\graphics\dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 )
-(C:\CTEX\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
-Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count90
+(C:\CTEX\MiKTeX\tex\latex\graphics\dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
 (C:\CTEX\MiKTeX\tex\latex\graphics\graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
@@ -75,7 +70,7 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 (C:\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: dvips.def on input line 91.
 )
 (C:\CTEX\MiKTeX\tex\latex\l3kernel\l3basics.sty
 Package: l3basics 2012/02/26 v3460 L3 Experimental basic definitions
@@ -91,19 +86,19 @@ Package: l3seq 2012/01/09 v3158 L3 Experimental sequences and stacks
 )
 (C:\CTEX\MiKTeX\tex\latex\l3kernel\l3int.sty
 Package: l3int 2012/02/26 v3460 L3 Experimental integers
-\c_max_int=\count91
-\l_tmpa_int=\count92
-\l_tmpb_int=\count93
-\l_tmpc_int=\count94
-\g_tmpa_int=\count95
-\g_tmpb_int=\count96
+\c_max_int=\count90
+\l_tmpa_int=\count91
+\l_tmpb_int=\count92
+\l_tmpc_int=\count93
+\g_tmpa_int=\count94
+\g_tmpb_int=\count95
 )
 (C:\CTEX\MiKTeX\tex\latex\l3kernel\l3quark.sty
 Package: l3quark 2012/02/12 v3384 L3 Experimental quarks
 )
 (C:\CTEX\MiKTeX\tex\latex\l3kernel\l3prg.sty
 Package: l3prg 2012/02/26 v3464 L3 Experimental control structures
-\g_prg_map_int=\count97
+\g_prg_map_int=\count96
 )
 (C:\CTEX\MiKTeX\tex\latex\l3kernel\l3clist.sty
 Package: l3clist 2012/02/26 v3460 L3 Experimental comma separated lists
@@ -119,12 +114,12 @@ Package: l3msg 2012/02/26 v3470 L3 Experimental messages
 )
 (C:\CTEX\MiKTeX\tex\latex\l3kernel\l3file.sty
 Package: l3file 2012/02/26 v3464 L3 Experimental file and I/O operations
-\l_iow_stream_int=\count98
-\l_iow_line_length_int=\count99
-\l_iow_target_length_int=\count100
-\l_iow_current_line_int=\count101
-\l_iow_current_word_int=\count102
-\l_iow_current_indentation_int=\count103
+\l_iow_stream_int=\count97
+\l_iow_line_length_int=\count98
+\l_iow_target_length_int=\count99
+\l_iow_current_line_int=\count100
+\l_iow_current_word_int=\count101
+\l_iow_current_indentation_int=\count102
 )
 (C:\CTEX\MiKTeX\tex\latex\l3kernel\l3skip.sty
 Package: l3skip 2012/02/26 v3460 L3 Experimental dimensions and skips
@@ -141,63 +136,63 @@ Package: l3skip 2012/02/26 v3460 L3 Experimental dimensions and skips
 )
 (C:\CTEX\MiKTeX\tex\latex\l3kernel\l3keys.sty
 Package: l3keys 2011/12/22 v3086 L3 Experimental key-value interfaces
-\g_keyval_level_int=\count104
-\l_keys_choice_int=\count105
+\g_keyval_level_int=\count103
+\l_keys_choice_int=\count104
 )
 (C:\CTEX\MiKTeX\tex\latex\l3kernel\l3fp.sty
 Package: l3fp 2012/02/06 v3315 L3 Experimental floating-point operations
-\c_one_million=\count106
-\c_one_hundred_million=\count107
-\c_five_hundred_million=\count108
-\c_one_thousand_million=\count109
-\c_fp_pi_by_four_decimal_int=\count110
-\c_fp_pi_by_four_extended_int=\count111
-\c_fp_pi_decimal_int=\count112
-\c_fp_pi_extended_int=\count113
-\c_fp_two_pi_decimal_int=\count114
-\c_fp_two_pi_extended_int=\count115
-\l_fp_count_int=\count116
-\l_fp_div_offset_int=\count117
-\l_fp_exp_integer_int=\count118
-\l_fp_exp_decimal_int=\count119
-\l_fp_exp_extended_int=\count120
-\l_fp_exp_exponent_int=\count121
-\l_fp_input_a_sign_int=\count122
-\l_fp_input_a_integer_int=\count123
-\l_fp_input_a_decimal_int=\count124
-\l_fp_input_a_exponent_int=\count125
-\l_fp_input_b_sign_int=\count126
-\l_fp_input_b_integer_int=\count127
-\l_fp_input_b_decimal_int=\count128
-\l_fp_input_b_exponent_int=\count129
-\l_fp_input_a_extended_int=\count130
-\l_fp_input_b_extended_int=\count131
-\l_fp_mul_a_i_int=\count132
-\l_fp_mul_a_ii_int=\count133
-\l_fp_mul_a_iii_int=\count134
-\l_fp_mul_a_iv_int=\count135
-\l_fp_mul_a_v_int=\count136
-\l_fp_mul_a_vi_int=\count137
-\l_fp_mul_b_i_int=\count138
-\l_fp_mul_b_ii_int=\count139
-\l_fp_mul_b_iii_int=\count140
-\l_fp_mul_b_iv_int=\count141
-\l_fp_mul_b_v_int=\count142
-\l_fp_mul_b_vi_int=\count143
-\l_fp_mul_output_int=\count144
-\l_fp_output_sign_int=\count145
-\l_fp_output_integer_int=\count146
-\l_fp_output_decimal_int=\count147
-\l_fp_output_exponent_int=\count148
-\l_fp_output_extended_int=\count149
-\l_fp_round_position_int=\count150
-\l_fp_round_target_int=\count151
-\l_fp_split_sign_int=\count152
-\l_fp_internal_int=\count153
-\l_fp_trig_octant_int=\count154
-\l_fp_trig_sign_int=\count155
-\l_fp_trig_decimal_int=\count156
-\l_fp_trig_extended_int=\count157
+\c_one_million=\count105
+\c_one_hundred_million=\count106
+\c_five_hundred_million=\count107
+\c_one_thousand_million=\count108
+\c_fp_pi_by_four_decimal_int=\count109
+\c_fp_pi_by_four_extended_int=\count110
+\c_fp_pi_decimal_int=\count111
+\c_fp_pi_extended_int=\count112
+\c_fp_two_pi_decimal_int=\count113
+\c_fp_two_pi_extended_int=\count114
+\l_fp_count_int=\count115
+\l_fp_div_offset_int=\count116
+\l_fp_exp_integer_int=\count117
+\l_fp_exp_decimal_int=\count118
+\l_fp_exp_extended_int=\count119
+\l_fp_exp_exponent_int=\count120
+\l_fp_input_a_sign_int=\count121
+\l_fp_input_a_integer_int=\count122
+\l_fp_input_a_decimal_int=\count123
+\l_fp_input_a_exponent_int=\count124
+\l_fp_input_b_sign_int=\count125
+\l_fp_input_b_integer_int=\count126
+\l_fp_input_b_decimal_int=\count127
+\l_fp_input_b_exponent_int=\count128
+\l_fp_input_a_extended_int=\count129
+\l_fp_input_b_extended_int=\count130
+\l_fp_mul_a_i_int=\count131
+\l_fp_mul_a_ii_int=\count132
+\l_fp_mul_a_iii_int=\count133
+\l_fp_mul_a_iv_int=\count134
+\l_fp_mul_a_v_int=\count135
+\l_fp_mul_a_vi_int=\count136
+\l_fp_mul_b_i_int=\count137
+\l_fp_mul_b_ii_int=\count138
+\l_fp_mul_b_iii_int=\count139
+\l_fp_mul_b_iv_int=\count140
+\l_fp_mul_b_v_int=\count141
+\l_fp_mul_b_vi_int=\count142
+\l_fp_mul_output_int=\count143
+\l_fp_output_sign_int=\count144
+\l_fp_output_integer_int=\count145
+\l_fp_output_decimal_int=\count146
+\l_fp_output_exponent_int=\count147
+\l_fp_output_extended_int=\count148
+\l_fp_round_position_int=\count149
+\l_fp_round_target_int=\count150
+\l_fp_split_sign_int=\count151
+\l_fp_internal_int=\count152
+\l_fp_trig_octant_int=\count153
+\l_fp_trig_sign_int=\count154
+\l_fp_trig_decimal_int=\count155
+\l_fp_trig_extended_int=\count156
 \l_fp_internal_dim=\dimen108
 \l_fp_internal_skip=\skip48
 )
@@ -250,16 +245,16 @@ Package: l3color 2011/09/07 v2776 L3 Experimental colour support
 )
 (C:\CTEX\MiKTeX\tex\latex\l3kernel\l3luatex.sty
 Package: l3luatex 2012/02/09 v3355 L3 Experimental LuaTeX-specific functions
-\g_cctab_allocate_int=\count158
-\g_cctab_stack_int=\count159
+\g_cctab_allocate_int=\count157
+\g_cctab_stack_int=\count158
 ))
 (C:\CTEX\MiKTeX\tex\latex\etoolbox\etoolbox.sty
 Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
-\etb@tempcnta=\count160
+\etb@tempcnta=\count159
 )
 (C:\CTEX\MiKTeX\tex\generic\oberdiek\ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
 )
 (C:\CTEX\MiKTeX\tex\generic\ifxetex\ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
@@ -303,11 +298,11 @@ LaTeX Info: Redefining \selectfont on input line 756.
 )
 (C:\CTEX\CTeX\tex\latex\CJKpunct\CJKpunct.sty
 Package: CJKpunct 2010/02/21 4.8.2-2
-\CJKpunct@cnta=\count161
-\CJKpunct@cntb=\count162
-\CJKpunct@cntc=\count163
-\CJKpunct@cntd=\count164
-\CJKpunct@cnte=\count165
+\CJKpunct@cnta=\count160
+\CJKpunct@cntb=\count161
+\CJKpunct@cntc=\count162
+\CJKpunct@cntd=\count163
+\CJKpunct@cnte=\count164
 
 (C:\CTEX\CTeX\tex\latex\CJKpunct\CJKpunct.spa))
 (C:\CTEX\MiKTeX\tex\latex\ctex\engine\ctex-cjk-common.def
@@ -317,9 +312,9 @@ Package: CJKpunct 2010/02/21 4.8.2-2
 (C:\CTEX\MiKTeX\tex\generic\zhmetrics\zhwinfonts.tex
 (C:\CTEX\MiKTeX\tex\generic\oberdiek\ifpdf.sty
 Package ifpdf Info: The package is already loaded, stopped on input line 64.
-){C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}})))
-\CTEX@q=\count166
-\CTEX@r=\count167
+))))
+\CTEX@q=\count165
+\CTEX@r=\count166
 )
 (C:\CTEX\MiKTeX\tex\latex\ctex\def\ctex-caption.def)
 (C:\CTEX\MiKTeX\tex\latex\ctex\def\ctex-class.def)
@@ -339,7 +334,7 @@ Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 \UL@skip=\skip58
 \UL@hook=\toks15
 \UL@height=\dimen141
-\UL@pe=\count168
+\UL@pe=\count167
 \UL@pixel=\dimen142
 \ULC@box=\box38
 Package: ulem 2011/03/18
@@ -395,16 +390,16 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 (C:\CTEX\MiKTeX\tex\latex\ltxmisc\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box39
-\sift@deathcycles=\count169
+\sift@deathcycles=\count168
 \@vwid@loff=\dimen146
 \@vwid@roff=\dimen147
 )
-\c@taburow=\count170
-\tabu@nbcols=\count171
-\tabu@cnt=\count172
-\tabu@Xcol=\count173
-\tabu@alloc=\count174
-\tabu@nested=\count175
+\c@taburow=\count169
+\tabu@nbcols=\count170
+\tabu@cnt=\count171
+\tabu@Xcol=\count172
+\tabu@alloc=\count173
+\tabu@nested=\count174
 \tabu@target=\dimen148
 \tabu@spreadtarget=\dimen149
 \tabu@naturalX=\dimen150
@@ -434,12 +429,12 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen164
 \cmidrulekern=\dimen165
 \defaultaddspace=\dimen166
-\@cmidla=\count176
-\@cmidlb=\count177
+\@cmidla=\count175
+\@cmidlb=\count176
 \@aboverulesep=\dimen167
 \@belowrulesep=\dimen168
-\@thisruleclass=\count178
-\@lastruleclass=\count179
+\@thisruleclass=\count177
+\@lastruleclass=\count178
 \@thisrulewidth=\dimen169
 )
 (C:\CTEX\MiKTeX\tex\latex\multirow\multirow.sty
@@ -447,14 +442,14 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 )
 (C:\CTEX\MiKTeX\tex\latex\tools\multicol.sty
 Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
-\c@tracingmulticols=\count180
+\c@tracingmulticols=\count179
 \mult@box=\box44
 \multicol@leftmargin=\dimen171
-\c@unbalance=\count181
-\c@collectmore=\count182
-\doublecol@number=\count183
-\multicoltolerance=\count184
-\multicolpretolerance=\count185
+\c@unbalance=\count180
+\c@collectmore=\count181
+\doublecol@number=\count182
+\multicoltolerance=\count183
+\multicolpretolerance=\count184
 \full@width=\dimen172
 \page@free=\dimen173
 \premulticols=\dimen174
@@ -484,14 +479,14 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \@tempa=\box65
 \@tempa=\box66
 \@tempa=\box67
-\c@columnbadness=\count186
-\c@finalcolumnbadness=\count187
+\c@columnbadness=\count185
+\c@finalcolumnbadness=\count186
 \last@try=\dimen176
 \multicolovershoot=\dimen177
 \multicolundershoot=\dimen178
 \mult@nat@firstbox=\box68
 \colbreak@box=\box69
-\multicol@sort@counter=\count188
+\multicol@sort@counter=\count187
 )
 (C:\CTEX\MiKTeX\tex\latex\tools\longtable.sty
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
@@ -499,16 +494,16 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTright=\skip65
 \LTpre=\skip66
 \LTpost=\skip67
-\LTchunksize=\count189
+\LTchunksize=\count188
 \LTcapwidth=\dimen179
 \LT@head=\box70
 \LT@firsthead=\box71
 \LT@foot=\box72
 \LT@lastfoot=\box73
-\LT@cols=\count190
-\LT@rows=\count191
-\c@LT@tables=\count192
-\c@LT@chunks=\count193
+\LT@cols=\count189
+\LT@rows=\count190
+\c@LT@tables=\count191
+\c@LT@chunks=\count192
 \LT@p@ftn=\toks19
 )
 (C:\CTEX\MiKTeX\tex\latex\rotating\rotating.sty
@@ -517,7 +512,7 @@ Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 (C:\CTEX\MiKTeX\tex\latex\base\ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count194
+\c@r@tfl@t=\count193
 \rotFPtop=\skip68
 \rotFPbot=\skip69
 \rot@float@box=\box74
@@ -530,9 +525,9 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
 Package ifvtex Info: VTeX not detected.
 )
-\Gm@cnth=\count195
-\Gm@cntv=\count196
-\c@Gm@tempcnt=\count197
+\Gm@cnth=\count194
+\Gm@cntv=\count195
+\c@Gm@tempcnt=\count196
 \Gm@bindingoffset=\dimen180
 \Gm@wd@mp=\dimen181
 \Gm@odd@mp=\dimen182
@@ -564,14 +559,13 @@ Package: amsbsy 1999/11/29 v1.2d
 (C:\CTEX\MiKTeX\tex\latex\ams\math\amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count198
+\inf@bad=\count197
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count199
-\leftroot@=\count200
+\uproot@=\count198
+\leftroot@=\count199
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count201
-Normal \count register pool exhausted, switching to extended pool.
-\DOTSCASE@=\count277
+\classnum@=\count200
+\DOTSCASE@=\count201
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
@@ -580,15 +574,16 @@ LaTeX Info: Redefining \cdots on input line 467.
 \big@size=\dimen190
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count278
-\c@MaxMatrixCols=\count279
+Normal \count register pool exhausted, switching to extended pool.
+\macc@depth=\count277
+\c@MaxMatrixCols=\count278
 \dotsspace@=\muskip10
-\c@parentequation=\count280
-\dspbrk@lvl=\count281
+\c@parentequation=\count279
+\dspbrk@lvl=\count280
 \tag@help=\toks23
-\row@=\count282
-\column@=\count283
-\maxfields@=\count284
+\row@=\count281
+\column@=\count282
+\maxfields@=\count283
 \andhelp@=\toks24
 \eqnshift@=\dimen191
 \alignsep@=\dimen192
@@ -602,11 +597,15 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
+)
+(C:\CTEX\MiKTeX\tex\latex\titlesec\titletoc.sty
+Package: titletoc 2011/12/15 v1.6 TOC entries
+\ttl@leftsep=\dimen197
 ))
-(D:\program\USTBThesis\main.aux (D:\program\USTBThesis\ThesisInfo.aux)
-(D:\program\USTBThesis\ThesisCover.aux) (D:\program\USTBThesis\MyThanks.aux)
-(D:\program\USTBThesis\MyAbstract.aux) (D:\program\USTBThesis\MyPreface.aux)
-(D:\program\USTBThesis\chapter1.aux) (D:\program\USTBThesis\chapter2.aux))
+(F:\program\USTBThesis\main.aux (F:\program\USTBThesis\ThesisInfo.aux)
+(F:\program\USTBThesis\ThesisCover.aux) (F:\program\USTBThesis\MyThanks.aux)
+(F:\program\USTBThesis\MyAbstract.aux) (F:\program\USTBThesis\MyPreface.aux)
+(F:\program\USTBThesis\chapter1.aux) (F:\program\USTBThesis\chapter2.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
@@ -690,24 +689,10 @@ LaTeX Font Info:    Try loading font information for OT1+ptm on input line 3.
 (C:\CTEX\MiKTeX\tex\latex\psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-(C:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count285
-\scratchdimen=\dimen197
-\scratchbox=\box77
-\nofMPsegments=\count286
-\nofMParguments=\count287
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count288
-\MPscratchDim=\dimen198
-\MPnumerator=\count289
-\makeMPintoPDFobject=\count290
-\everyMPtoPDFconversion=\toks28
-)
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: dvips
 * paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -747,7 +732,7 @@ File: extended.enc 2008/12/29 4.8.2
 (C:\CTEX\MiKTeX\tex\latex\cjk\extended.chr
 File: extended.chr 2008/12/29 4.8.2
 )
-(D:\program\USTBThesis\ThesisInfo.tex) (D:\program\USTBThesis\ThesisCover.tex
+(F:\program\USTBThesis\ThesisInfo.tex) (F:\program\USTBThesis\ThesisCover.tex
 LaTeX Font Info:    Try loading font information for C19+rm on input line 9.
 
 (C:\CTEX\MiKTeX\tex\latex\ctex\fd\c19rm.fd
@@ -825,25 +810,20 @@ Underfull \hbox (badness 10000) detected at line 136
 4.05/63 \OT1/ptm/m/n/14.05 25\C19/rm/m/n/14.05/54 F
  []
 
-[1]) (D:\program\USTBThesis\MyThanks.tex
+[1]) (F:\program\USTBThesis\MyThanks.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.09> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
-LaTeX Font Info:    Try loading font information for C19+zhsong on input line 4
-.
-
-(C:\CTEX\MiKTeX\tex\latex\zhmetrics\c19zhsong.fd
-File: c19zhsong.fd 2009/09/23 4.8.2
-)) [1
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+) [1
 
 
 
 ]
-(D:\program\USTBThesis\MyAbstract.tex [2
+(F:\program\USTBThesis\MyAbstract.tex [2
 
 
 
 ]
-LaTeX Font Info:    Try loading font information for C19+zhhei on input line 11
+LaTeX Font Info:    Try loading font information for C19+zhhei on input line 12
 .
 
 (C:\CTEX\MiKTeX\tex\latex\zhmetrics\c19zhhei.fd
@@ -851,7 +831,7 @@ File: c19zhhei.fd 2009/09/23 4.8.2
 ) [3] [4
 
 ]) [5]
-(D:\program\USTBThesis\MyPreface.tex [6
+(F:\program\USTBThesis\MyPreface.tex [6
 
 
 
@@ -859,24 +839,30 @@ File: c19zhhei.fd 2009/09/23 4.8.2
 
 
 ]
-(D:\program\USTBThesis\main.toc)
+(F:\program\USTBThesis\main.toc
+LaTeX Font Info:    Try loading font information for C19+zhsong on input line 8
+.
+
+(C:\CTEX\MiKTeX\tex\latex\zhmetrics\c19zhsong.fd
+File: c19zhsong.fd 2009/09/23 4.8.2
+))
 \tf@toc=\write3
  [9] [10
 
-] (D:\program\USTBThesis\main.lot)
+]
+(F:\program\USTBThesis\main.lot)
 \tf@lot=\write4
+ [11] [12
 
-[11] [12
-
-] (D:\program\USTBThesis\main.lof)
+] (F:\program\USTBThesis\main.lof)
 \tf@lof=\write5
- [1]
-(D:\program\USTBThesis\chapter1.tex [2
+
+[13] (F:\program\USTBThesis\chapter1.tex [14
 
 
 ]
 1\ignorespaces 
-) [3] (D:\program\USTBThesis\chapter2.tex [4
+) [1] (F:\program\USTBThesis\chapter2.tex [2
 
 
 
@@ -885,47 +871,18 @@ File: c19zhhei.fd 2009/09/23 4.8.2
 )
 Underfull \vbox (badness 1735) has occurred while \output is active []
 
- [5]
-[6] (D:\program\USTBThesis\main.aux (D:\program\USTBThesis\ThesisInfo.aux)
-(D:\program\USTBThesis\ThesisCover.aux) (D:\program\USTBThesis\MyThanks.aux)
-(D:\program\USTBThesis\MyAbstract.aux) (D:\program\USTBThesis\MyPreface.aux)
-(D:\program\USTBThesis\chapter1.aux) (D:\program\USTBThesis\chapter2.aux)) ) 
+ [3]
+[4] (F:\program\USTBThesis\main.aux (F:\program\USTBThesis\ThesisInfo.aux)
+(F:\program\USTBThesis\ThesisCover.aux) (F:\program\USTBThesis\MyThanks.aux)
+(F:\program\USTBThesis\MyAbstract.aux) (F:\program\USTBThesis\MyPreface.aux)
+(F:\program\USTBThesis\chapter1.aux) (F:\program\USTBThesis\chapter2.aux)) ) 
 Here is how much of TeX's memory you used:
- 11888 strings out of 495354
- 189878 string characters out of 3183858
- 240692 words of memory out of 3000000
- 14684 multiletter control sequences out of 15000+200000
- 108580 words of font info for 286 fonts, out of 3000000 for 9000
+ 11615 strings out of 495355
+ 187611 string characters out of 3183882
+ 232667 words of memory out of 3000000
+ 14431 multiletter control sequences out of 15000+200000
+ 98324 words of font info for 287 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,10n,47p,897b,607s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:
-/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun
-.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Font
-s/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Wind
-ows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf>
-<C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/sim
-hei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/F
-onts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/W
-indows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.t
-tc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/
-simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Window
-s/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C
-:/Windows/Fonts/simhei.ttf>{C:/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/
-Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.
-ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts
-/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windo
-ws/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><
-C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/sims
-un.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fo
-nts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Wi
-ndows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.tt
-c><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/s
-imsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows
-/Fonts/simsun.ttc><C:/CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/CTEX/MiK
-TeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (25 pages, 265158 bytes).
-PDF statistics:
- 328 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 39i,10n,47p,875b,607s stack positions out of 5000i,500n,10000p,200000b,50000s
 
+Output written on main.dvi (25 pages, 76740 bytes).

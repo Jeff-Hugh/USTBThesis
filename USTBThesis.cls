@@ -30,6 +30,7 @@
 \usepackage[top=30mm, bottom=20mm, left=30mm, right=30mm]{geometry}  %页面边距设置
 \usepackage{graphicx}   %插图
 \usepackage{amsmath}    %公式换行
+\usepackage{titletoc}   %目录
 
 %%%%%%%%%%%%%%%%%%%%%%%%%论文信息%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %学校
@@ -130,24 +131,13 @@
 \CTEXsetup[format={\Large\bf}]{section}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%定义致谢%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newenvironment{USTBthanks}{%
-\heiti \zihao{2} \chapter*{致 \qquad 谢} \par
-\songti \zihao{-4}}{\par}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%定义摘要%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newenvironment{USTBAbstractCN}{%
-\heiti \zihao{2} \chapter*{摘 \qquad 要} \par
-\songti \zihao{-4}}{\par }
+%%%%%%%%%%%%%%%%%%%%%%目录%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\newenvironment{USTBAbstractEN}{%
-\heiti \zihao{2} \chapter*{Abstract} \par
-\zihao{-4}}{\par }
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%定义致谢%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newenvironment{USTBPreface}{%
-\heiti \zihao{2} \chapter*{序} \par
-\songti \zihao{-4}}{\par}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\contentsname}{\centering 目\quad 录}
+\titlecontents{chapter}[0pt]{\heiti\zihao{-4}}{\thecontentslabel\ }{}
+        {\hspace{.5em}\titlerule*[4pt]{$\cdot$}\contentspage}
+\titlecontents{section}[2em]{\vspace{0.1\baselineskip}\songti\zihao{-4}}{\thecontentslabel\ }{}
+        {\hspace{.5em}\titlerule*[4pt]{$\cdot$}\contentspage}
+\titlecontents{subsection}[4em]{\vspace{0.1\baselineskip}\songti\zihao{-4}}{\thecontentslabel\ }{}
+        {\hspace{.5em}\titlerule*[4pt]{$\cdot$}\contentspage}

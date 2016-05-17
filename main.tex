@@ -23,13 +23,15 @@
 \tableofcontents
 
 %表格目录，如果不使用请注释掉
+\renewcommand{\listtablename}{\centering 表格清单}
+\addcontentsline{toc}{chapter}{表格清单}
 \listoftables
 
 %图像目录，如果不使用请注释掉
+\renewcommand{\listfigurename}{\centering 插图清单}
+\addcontentsline{toc}{chapter}{插图清单}
 \listoffigures
 
-\pagenumbering{arabic}
-\setcounter{page}{1}
 %第一章
 \include{chapter1}
 
