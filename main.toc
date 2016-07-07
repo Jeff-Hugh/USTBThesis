@@ -13,4 +13,9 @@
 \contentsline {subsection}{\numberline {2.2.1}CCT}{3}
 \contentsline {subsection}{\numberline {2.2.2}CJK}{3}
 \contentsline {subsection}{\numberline {2.2.3}中文套装}{4}
+\contentsline {chapter}{\numberline {3\ignorespaces \hspace {0.3em}}表格、图片和公式的使用}{5}
+\contentsline {section}{\numberline {3.1}表格}{5}
+\contentsline {section}{\numberline {3.2}图片}{5}
+\contentsline {subsection}{\numberline {3.2.1}插入一张图片}{6}
+\contentsline {section}{\numberline {3.3}公式}{6}
 \contentsfinish 

@@ -31,6 +31,7 @@
 \usepackage{graphicx}   %插图
 \usepackage{amsmath}    %公式换行
 \usepackage{titletoc}   %目录
+\usepackage{listings}   %插入代码
 
 %%%%%%%%%%%%%%%%%%%%%%%%%论文信息%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %学校

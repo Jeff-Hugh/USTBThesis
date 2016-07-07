@@ -1,7 +1,6 @@
 \documentclass{USTBThesis}
 
 \begin{document}
-\fontspec{Times New Roman}
 
 %论文信息
 \include{ThesisInfo}
@@ -9,11 +8,36 @@
 %论文封面
 \include{ThesisCover}
 
+\pagenumbering{Roman}
+\setcounter{page}{1}
 %致谢
 \include{MyThanks}
 
 %摘要
 \include{MyAbstract}
+
+%序
+\include{MyPreface}
+
+%目录
+\tableofcontents
+
+%表格目录，如果不使用请注释掉
+\renewcommand{\listtablename}{\centering 表格清单}
+\addcontentsline{toc}{chapter}{表格清单}
+\listoftables
+
+%图像目录，如果不使用请注释掉
+\renewcommand{\listfigurename}{\centering 插图清单}
+\addcontentsline{toc}{chapter}{插图清单}
+\listoffigures
+
+%第一章
+\include{chapter1}
+
+%第二章
+\include{chapter2}
+
 
 
 \end{document}
