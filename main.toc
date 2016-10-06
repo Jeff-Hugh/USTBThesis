@@ -2,11 +2,12 @@
 \contentsline {chapter}{摘要}{III}
 \contentsline {chapter}{Abstract}{V}
 \contentsline {chapter}{序言}{VII}
-\contentsline {chapter}{表格清单}{IX}
+\contentsline {chapter}{表格清单}{X}
 \contentsline {chapter}{插图清单}{XI}
 \contentsline {chapter}{\numberline {1\ignorespaces \hspace {0.3em}}引言}{1}
 \contentsline {section}{\numberline {1.1}项目原因}{1}
 \contentsline {section}{\numberline {1.2}参考资料}{1}
+\contentsline {section}{\numberline {1.3}注意事项}{1}
 \contentsline {chapter}{\numberline {2\ignorespaces \hspace {0.3em}}\LaTeX 基本使用}{3}
 \contentsline {section}{\numberline {2.1}\LaTeX 的由来}{3}
 \contentsline {section}{\numberline {2.2}汉化}{3}
@@ -18,4 +19,12 @@
 \contentsline {section}{\numberline {3.2}图片}{5}
 \contentsline {subsection}{\numberline {3.2.1}插入一张图片}{6}
 \contentsline {section}{\numberline {3.3}公式}{6}
+\contentsline {subsection}{\numberline {3.3.1}行内公式}{6}
+\contentsline {subsection}{\numberline {3.3.2}行间公式}{7}
+\contentsline {chapter}{\numberline {4\ignorespaces \hspace {0.3em}}插入参考文献}{9}
+\contentsline {section}{\numberline {4.1}\textsc {Bib}\kern -.08em T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor 1000 的使用}{9}
+\contentsline {section}{\numberline {4.2}在\LaTeX 中使用\textsc {Bib}\kern -.08em T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor 1000 }{10}
+\contentsline {section}{\numberline {4.3}运行 \textsc {Bib}\kern -.08em T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor 1000 }{10}
+\contentsline {section}{\numberline {4.4}本论文参考文献格式}{10}
+\contentsline {chapter}{参考文献}{11}
 \contentsfinish 

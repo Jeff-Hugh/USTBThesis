@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.24)  7 JUL 2016 22:19
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.24)  6 OCT 2016 15:46
 entering extended mode
 **D:/program/USTBThesis/main.tex
 (D:/program/USTBThesis/main.tex
@@ -631,12 +631,25 @@ File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
 Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(C:\CTEX\MiKTeX\tex\generic\misc\texnames.sty
+This is texnames.sty, Version 1.09 <16 March 1993>
+) (C:\CTEX\MiKTeX\tex\latex\natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip73
+\bibsep=\skip74
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count293
 )
-(D:\program\USTBThesis\main.aux (D:\program\USTBThesis\ThesisInfo.aux)
-(D:\program\USTBThesis\ThesisCover.aux) (D:\program\USTBThesis\MyThanks.aux)
-(D:\program\USTBThesis\MyAbstract.aux) (D:\program\USTBThesis\MyPreface.aux)
-(D:\program\USTBThesis\chapter1.aux) (D:\program\USTBThesis\chapter2.aux)
-(D:\program\USTBThesis\chapter3.aux))
+(C:\CTEX\MiKTeX\tex\latex\ltxmisc\url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)) (D:\program\USTBThesis\main.aux
+(D:\program\USTBThesis\ThesisInfo.aux) (D:\program\USTBThesis\ThesisCover.aux)
+(D:\program\USTBThesis\MyThanks.aux) (D:\program\USTBThesis\MyAbstract.aux)
+(D:\program\USTBThesis\MyPreface.aux) (D:\program\USTBThesis\chapter1.aux)
+(D:\program\USTBThesis\chapter2.aux) (D:\program\USTBThesis\chapter3.aux)
+(D:\program\USTBThesis\chapter4.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
@@ -722,17 +735,17 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (C:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count293
+\scratchcounter=\count294
 Normal \dimen register pool exhausted, switching to extended pool.
 \scratchdimen=\dimen256
 \scratchbox=\box79
-\nofMPsegments=\count294
-\nofMParguments=\count295
+\nofMPsegments=\count295
+\nofMParguments=\count296
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count296
+\MPscratchCnt=\count297
 \MPscratchDim=\dimen257
-\MPnumerator=\count297
-\makeMPintoPDFobject=\count298
+\MPnumerator=\count298
+\makeMPintoPDFobject=\count299
 \everyMPtoPDFconversion=\toks29
 )
 *geometry* driver: auto-detecting
@@ -769,7 +782,7 @@ Normal \dimen register pool exhausted, switching to extended pool.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count299
+\c@lstlisting=\count300
 (C:\CTEX\MiKTeX\tex\latex\cjk\standard.bdg
 File: standard.bdg 2008/12/29 4.8.2
 )
@@ -823,7 +836,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 ] [2
 
 ]
-\Mycode=\skip73
+\Mycode=\skip75
 Package CJKpunct Info: punctuation spaces for family 'zhsong' do not exist. Use
  family 'def' instead. on input line 21.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <18.07> not available
@@ -894,17 +907,24 @@ LaTeX Font Info:    Try loading font information for C19+zhsong on input line 8
 File: c19zhsong.fd 2009/09/23 4.8.2
 ))
 \tf@toc=\write3
- [9] [10
-
-]
+ [9] [10]
 (D:\program\USTBThesis\main.lot)
 \tf@lot=\write4
- [11] [12
+ [11
+
+] [12
 
 ] (D:\program\USTBThesis\main.lof)
 \tf@lof=\write5
 
-[13] (D:\program\USTBThesis\chapter1.tex [14
+[13] (D:\program\USTBThesis\chapter1.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.64998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14
 
 
 ]
@@ -921,59 +941,102 @@ Underfull \vbox (badness 1735) has occurred while \output is active []
  [3]
 [4] (D:\program\USTBThesis\chapter3.tex
 3\ignorespaces 
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 43.
+(C:\CTEX\MiKTeX\tex\latex\psnfss\omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12.05> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
+
+Overfull \hbox (25.83022pt too wide) in paragraph at lines 44--44
+|\C19/zhhei/m/n/12.05/25 ,||,| $\OMS/ztmcm/m/n/12.05 n$\OT1/ptm/m/n/12.05 end\O
+MS/cmsy/m/n/12.05 f\OT1/ptm/m/n/12.05 figure\OMS/cmsy/m/n/12.05 g \OT1/ptm/m/n/
+12.05 , \C19/zhhei/m/n/12.05/38  \C19/zhhei/m/n/12.05/54 \ \C19/zhhei/m/n/12.0
+5/56 V \C19/zhhei/m/n/12.05/48 9 \C19/zhhei/m/n/12.05/57 ã \C19/zhhei/m/n/12.05
+/52 ¡ \C19/zhhei/m/n/12.05/55 ž \C19/zhhei/m/n/12.05/60 I \C19/zhhei/m/n/12.05/
+63 3\OT1/ptm/m/n/12.05 figure\C19/zhhei/m/n/12.05/40  \C19/zhhei/m/n/12.05/54 
+þ \C19/zhhei/m/n/12.05/37 I \C19/zhhei/m/n/12.05/64 ¥ \C19/zhhei/m/n/12.05/45 \
+ \C19/zhhei/m/n/12.05/54 \ \C19/zhhei/m/n/12.05/41 Î \C19/zhhei/m/n/12.05/43 Ò 
+|\C19/zhhei/m/n/12.05/25 /|\OT1/ptm/m/n/12.05 *|\C19/zhhei/m/n/12.05/25 0||\C19
+/zhhei/m/n/12.05/26 §| \C19/zhhei/m/n/12.05/54 X$\OMS/ztmcm/m/n/12.05 n$\OT1/pt
+m/m/n/12.05 begin\OMS/cmsy/m/n/12.05 f\OT1/ptm/m/n/12.05 figure*\OMS/cmsy/m/n/1
+2.05 g
+ []
+
 [5
 
 
 
-] <figures/OpenSource.png, id=149, 803.0pt x 501.875pt>
+] <figures/OpenSource.png, id=151, 803.0pt x 501.875pt>
 File: figures/OpenSource.png Graphic file (type png)
 
 <use figures/OpenSource.png>
 Package pdftex.def Info: figures/OpenSource.png used on input line 49.
 (pdftex.def)             Requested size: 341.43306pt x 213.39743pt.
-) [6 <D:/program/USTBThesis/figures/OpenSource.png>] (D:\program\USTBThesis\mai
-n.aux (D:\program\USTBThesis\ThesisInfo.aux)
-(D:\program\USTBThesis\ThesisCover.aux) (D:\program\USTBThesis\MyThanks.aux)
-(D:\program\USTBThesis\MyAbstract.aux) (D:\program\USTBThesis\MyPreface.aux)
-(D:\program\USTBThesis\chapter1.aux) (D:\program\USTBThesis\chapter2.aux)
-(D:\program\USTBThesis\chapter3.aux)) ) 
+ [6 <D:/program/USTBThesis/figures/OpenSource.png>]) [7] (D:\program\USTBThesis
+\chapter4.tex [8
+
+
+
+]
+4\ignorespaces 
+LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <18.07> not available
+(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--16
+
+ []
+
+[9]) [10] (D:\program\USTBThesis\main.bbl) [11
+
+
+] (D:\program\USTBThesis\main.aux (D:\program\USTBThesis\ThesisInfo.aux) (D:\pr
+ogram\USTBThesis\ThesisCover.aux) (D:\program\USTBThesis\MyThanks.aux) (D:\prog
+ram\USTBThesis\MyAbstract.aux)
+(D:\program\USTBThesis\MyPreface.aux) (D:\program\USTBThesis\chapter1.aux)
+(D:\program\USTBThesis\chapter2.aux) (D:\program\USTBThesis\chapter3.aux)
+(D:\program\USTBThesis\chapter4.aux)) ) 
 Here is how much of TeX's memory you used:
- 13490 strings out of 495354
- 214369 string characters out of 3183858
- 265146 words of memory out of 3000000
- 16254 multiletter control sequences out of 15000+200000
- 117432 words of font info for 317 fonts, out of 3000000 for 9000
+ 14211 strings out of 495354
+ 224806 string characters out of 3183858
+ 272968 words of memory out of 3000000
+ 16934 multiletter control sequences out of 15000+200000
+ 132106 words of font info for 354 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,10n,47p,897b,618s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,15n,47p,905b,652s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Windows/Fonts/simhei.ttf><C:/Windows
-/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:
-/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei
-.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Font
-s/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Wind
-ows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf>
-<C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/sim
-hei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/F
-onts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/W
-indows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.t
-tc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/
-simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Window
-s/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf>{C
-:/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/Windows/Fonts/simhei.ttf><C:/
+/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf>{C:/CTEX/MiKTeX/fonts/enc/dvips/
+fontname/8r.enc}<C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/W
+indows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.t
+tf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/
+simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Window
+s/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C
+:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhe
+i.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fon
+ts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Win
+dows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc
+><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/si
+msun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/
+Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/
 Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.
 ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts
 /simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windo
-ws/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><
-C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/sims
+ws/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><
+C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/sims
 un.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fo
 nts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Wi
 ndows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.tt
 c><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/s
-imsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/CTEX/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/
-times/utmb8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (27 pages, 368310 bytes).
+imsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows
+/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:
+/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmtt12.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/CTEX/MiKTeX/fon
+ts/type1/urw/times/utmb8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
+<C:/CTEX/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (32 pages, 433076 bytes).
 PDF statistics:
- 352 PDF objects out of 1000 (max. 8388607)
+ 396 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

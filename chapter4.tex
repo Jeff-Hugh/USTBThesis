@@ -1,0 +1,49 @@
+% !Mode:: "TeX:UTF-8"
+
+\chapter{插入参考文献}
+\section{\BibTeX 的使用}
+\BibTeX 是一种格式和一个程序，用于协调LaTeX的参考文献处理。\BibTeX 使用数据库的的方式来管理参考文献. \BibTeX 文件的后缀名为 .bib。 先来看一个例子：
+\begin{quote}
+@article\{name1,\\
+author = \{作者, 多个作者用 and 连接\},\\
+title = \{标题\},\\
+journal = \{期刊名\},\\
+volume = \{卷20\},\\
+number = \{页码\},\\
+year = \{年份\},\\
+abstract = \{摘要, 这个主要是引用的时候自己参考的, 这一行不是必须的\}\\
+\}\\
+
+@book\{name2,\\
+author ="作者",\\
+year="年份2008",\\
+title="书名",\\
+publisher ="出版社名称"\\
+\}
+\end{quote}
+说明:第一行@article 告诉 \BibTeX 这是一个文章类型的参考文献，还有其它格式, 例如 article, book, booklet, conference, inbook, incollection, inproceedings，manual, misc, mastersthesis, phdthesis, proceedings, techreport, unpublished 等等。接下来的"name1"，就是你在正文中应用这个条目的名称。其它就是参考文献里面的具体内容啦。
+\section{在\LaTeX中使用\BibTeX}
+为了在LaTeX中使用BibTeX 数据库, 你必须先做下面三件事情:
+\begin{enumerate}
+\item 设置参考文献的类型 (bibliography style). 标准的为 plain:\\
+　　$\backslash$bibliographystyle\{plain\}\\
+将上面的命令放在 \LaTeX 文档的 $\backslash$begin\{document\}后边. 其它的类型包括:\\
+unsrt – 基本上跟 plain 类型一样，除了参考文献的条目的编号是按照引用的顺序，而不是按照作者的字母顺序。\\
+alpha – 类似于 plain 类型，当参考文献的条目的编号基于作者名字和出版年份的顺序。\\
+abbrv – 缩写格式。
+\item 标记引用 (Make citations). 当你在文档中想使用引用时, 插入\LaTeX 命令$\backslash$cite{引用文章名称}。"引用文章名称" 就是前边定义@article后面的名称.
+\item 告诉LaTeX生成参考文献列表，在 LaTeX 的结束前输入$\backslash$bibliography{bibfile}。这里bibfile 就是你的 BibTeX 数据库文件 bibfile.bib .
+\end{enumerate}
+
+\section{运行 \BibTeX}
+分为下面四步:
+\begin{enumerate}
+\item 用LaTeX编译你的 .tex 文件 , 这是生成一个 .aux 的文件, 这告诉 \BibTeX 将使用那些应用；
+\item 用\BibTeX 编译 .bib 文件；
+\item 再次用\LaTeX 编译你的 .tex 文件，这个时候在文档中已经包含了参考文献，但此时引用的编号可能不正确；
+\item 最后用 \LaTeX 编译你的 .tex 文件，如果一切顺利的话, 这是所有东西都已正常了.
+\end{enumerate}
+
+\section{本论文参考文献格式}
+北京科技大学博士论文的参考文献要求符合国家标准“GB/T7714-2005文后参考文献著录规则”。本模板中已包含了关于符合此要求的gbt7714-2005.bst文件，只需要将参考文献类型设置为$\backslash$bibliographystyle\{gbt7714-2005\}即可。
+

@@ -15,7 +15,7 @@
 \NeedsTeXFormat{LaTeX2e}[2007/10/19]
 \ProvidesClass{USTBThesis}[2015/12/21 v0.1 USTBthesis document class]
 
-\LoadClass[cs4size,a4paper,fancyhdr]{ctexbook}[2007/10/19]
+\LoadClass[cs4size,a4paper,fancyhdr,twoside]{ctexbook}[2007/10/19]
 
 \usepackage[dvips]{graphicx}        %竖排文字
 \usepackage{ulem}               %下划线强调
@@ -32,6 +32,9 @@
 \usepackage{amsmath}    %公式换行
 \usepackage{titletoc}   %目录
 \usepackage{listings}   %插入代码
+\usepackage{texnames}   %TeX家族标识符
+\usepackage[super,square,sort&compress]{natbib}   %参考文献设置
+\usepackage{url}    %引用网址
 
 %%%%%%%%%%%%%%%%%%%%%%%%%论文信息%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %学校
@@ -142,3 +145,4 @@
         {\hspace{.5em}\titlerule*[4pt]{$\cdot$}\contentspage}
 \titlecontents{subsection}[4em]{\vspace{0.1\baselineskip}\songti\zihao{-4}}{\thecontentslabel\ }{}
         {\hspace{.5em}\titlerule*[4pt]{$\cdot$}\contentspage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
