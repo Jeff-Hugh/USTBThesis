@@ -33,7 +33,9 @@
 \usepackage{titletoc}   %目录
 \usepackage{listings}   %插入代码
 \usepackage{texnames}   %TeX家族标识符
-
+\usepackage[super,square,sort&compress]{natbib}   %参考文献设置
+\usepackage{url}    %引用网址
+\usepackage{CJKvert}    %直排文字
 %%%%%%%%%%%%%%%%%%%%%%%%%论文信息%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %学校
 \def\UniversityCN{北京科技大学}

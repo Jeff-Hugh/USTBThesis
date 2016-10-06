@@ -17,7 +17,6 @@
 
 \LoadClass[cs4size,a4paper,fancyhdr,twoside]{ctexbook}[2007/10/19]
 
-\usepackage[dvips]{graphicx}        %竖排文字
 \usepackage{ulem}               %下划线强调
 \usepackage{fancyhdr}           %页眉页脚
 \usepackage{mathptmx}   %是英文字体为Times New Roman
@@ -34,8 +33,9 @@
 \usepackage{listings}   %插入代码
 \usepackage{texnames}   %TeX家族标识符
 \usepackage[super,square,sort&compress]{natbib}   %参考文献设置
-\usepackage{url}    %引用网址
-
+\usepackage{float}      %表格位置
+\usepackage{url}        %网址
+%\usepackage{CJKvert}    %直排文字
 %%%%%%%%%%%%%%%%%%%%%%%%%论文信息%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %学校
 \def\UniversityCN{北京科技大学}

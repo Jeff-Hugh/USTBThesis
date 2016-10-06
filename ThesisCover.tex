@@ -2,11 +2,19 @@
 
 %论文封面
 \newcommand{\makecover}{%
-    \rotatebox{-90}{\ThesisTitleCN}
-    \rotatebox{-90}{\AuthorCN}
-    \rotatebox{-90}{北京科技大学}
+    ~
+    \vspace{5em}
+    
+    \begin{tabular}[H]{p{60pt} p{1em}}
+    & \linespread{0.8}\selectfont \zihao{-2} \ThesisTitleCN \\
+    &\\
+    &\linespread{0.8}\selectfont \zihao{-2} \AuthorCN \\
+    &\\
+    &\linespread{0.8}\selectfont \zihao{-2} 北京科技大学
+    \end{tabular}
 }
 \makecover
+%\CJKhorz
 \pagestyle{empty}
 
 \newpage
@@ -17,7 +25,7 @@
 \begin{center}
 
 \hfill
-\newlength{\Mycode} 
+\newlength{\Mycode}
 \settowidth{\Mycode}{密 \qquad 级：\qquad 公 \qquad 开 \qquad}
 \begin{minipage}[t]{\Mycode}
 密 \qquad 级：\uline{\qquad 公 \qquad 开 \qquad}

@@ -2,9 +2,9 @@
 
 %论文封面
 \newcommand{\makecover}{%
-    \rotatebox{-90}{\ThesisTitleCN}
-    \rotatebox{-90}{\AuthorCN}
-    \rotatebox{-90}{北京科技大学}
+    \rotatebox{-90}{\CJKvert \ThesisTitleCN}
+    \rotatebox{-90}{\CJKvert  \AuthorCN}
+    \rotatebox{-90}{\CJKvert  北京科技大学}
 }
 \makecover
 \pagestyle{empty}
@@ -17,7 +17,7 @@
 \begin{center}
 
 \hfill
-\newlength{\Mycode} 
+\newlength{\Mycode}
 \settowidth{\Mycode}{密 \qquad 级：\qquad 公 \qquad 开 \qquad}
 \begin{minipage}[t]{\Mycode}
 密 \qquad 级：\uline{\qquad 公 \qquad 开 \qquad}
@@ -128,17 +128,14 @@ Beijing 100083, P.R.CHINA
 \vspace{10mm}
 
 \centerline{ \textbf{作者：} \AuthorCN } \par
-\vspace{50mm}
+\vspace{70mm}
 
 \begin{tabular}{rcrl}
-\textbf{指导 \qquad 教师：} & \zihao{5} \underline{\makebox[2cm]{\TeacherCN \qquad \TeacherJobtitle}} & \zihao{4} \textbf{单位：} & \zihao{5} \underline{\makebox[2cm]{\TeacherDepartment}} \\
-\zihao{4} \textbf{指导小组成员：} & \zihao{5} \underline{\makebox[2cm]{\SubTeacherCN \qquad \TeacherJobtitle}} & \zihao{4} \textbf{单位：} & \zihao{5} \underline{\makebox[2cm]{\SubTeacherDepartment}} \\
-\zihao{4} \textbf{论文提交日期：} & \multicolumn{3}{l}{\ThesisYear 年 \ThesisMonth 月 \ThesisDay 日} \\
-\textbf{学位授予单位：} & \multicolumn{3}{l}{\textbf{北 \quad 京 \quad 科 \quad 技 \quad 大 \quad 学}} 
+\makebox[7em][s]{\textbf{指\hspace{\fill}导\hspace{\fill}教\hspace{\fill}师：}} & \zihao{5} \underline{\makebox[3cm]{\TeacherCN \qquad \TeacherJobtitle}} & \zihao{4} \textbf{单位：} & \zihao{5} \underline{\makebox[3cm]{\TeacherDepartment}} \\
+\zihao{4} \makebox[7em][s]{\textbf{指导小组成员：}} & \zihao{5} \underline{\makebox[3cm]{\SubTeacherCN \qquad \TeacherJobtitle}} & \zihao{4} \textbf{单位：} & \zihao{5} \underline{\makebox[3cm]{\SubTeacherDepartment}} \\
+\zihao{4} \makebox[7em][s]{\textbf{论文提交日期：}} & \multicolumn{3}{l}{\makebox[7em][s]{\ThesisYear 年 \ThesisMonth 月 \ThesisDay 日}} \\
+\makebox[7em][s]{\textbf{学位授予单位：}} & \multicolumn{3}{l}{\makebox[7em][s]{\textbf{北\hspace{\fill}京\hspace{\fill}科\hspace{\fill}技\hspace{\fill}大\hspace{\fill}学}}}
 \end{tabular}
-
-
-\ThesisYear 年 \ThesisMonth 月 \ThesisDay 日
 
 \end{center}
 \end{titlepage}
