@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.24)  6 OCT 2016 20:12
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.24)  6 OCT 2016 20:18
 entering extended mode
 **D:/program/USTBThesis/main.tex
 (D:/program/USTBThesis/main.tex
@@ -648,10 +648,6 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box79
 \@float@everytoks=\toks29
 \@floatcapt=\box80
-)
-(C:\CTEX\MiKTeX\tex\latex\ltxmisc\url.sty
-\Urlmuskip=\muskip11
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )) (D:\program\USTBThesis\main.aux
 (D:\program\USTBThesis\ThesisInfo.aux) (D:\program\USTBThesis\ThesisCover.aux)
 (D:\program\USTBThesis\MyThanks.aux) (D:\program\USTBThesis\MyAbstract.aux)
@@ -1114,7 +1110,7 @@ m/m/n/12.05 begin\OMS/cmsy/m/n/12.05 f\OT1/ptm/m/n/12.05 figure*\OMS/cmsy/m/n/1
 
 
 
-] <figures/OpenSource.png, id=151, 803.0pt x 501.875pt>
+] <figures/OpenSource.png, id=150, 803.0pt x 501.875pt>
 File: figures/OpenSource.png Graphic file (type png)
 
 <use figures/OpenSource.png>
@@ -1144,11 +1140,11 @@ ram\USTBThesis\MyAbstract.aux)
 (D:\program\USTBThesis\chapter2.aux) (D:\program\USTBThesis\chapter3.aux)
 (D:\program\USTBThesis\chapter4.aux)) ) 
 Here is how much of TeX's memory you used:
- 14270 strings out of 495354
- 225560 string characters out of 3183858
- 274515 words of memory out of 3000000
- 16990 multiletter control sequences out of 15000+200000
- 131415 words of font info for 355 fonts, out of 3000000 for 9000
+ 14197 strings out of 495354
+ 224745 string characters out of 3183858
+ 273336 words of memory out of 3000000
+ 16921 multiletter control sequences out of 15000+200000
+ 131544 words of font info for 355 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  41i,12n,47p,905b,653s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Windows/Fonts/simhei.ttf><C:/Windows
@@ -1177,13 +1173,12 @@ c><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/s
 imsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows
 /Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:
 /CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmtt12.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/CTEX/MiKTeX/fon
-ts/type1/urw/times/utmb8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-<C:/CTEX/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (32 pages, 432889 bytes).
+e1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/symbol/usyr.pf
+b><C:/CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/CTEX/MiKTeX/fonts/type1/
+urw/times/utmr8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (32 pages, 426496 bytes).
 PDF statistics:
- 396 PDF objects out of 1000 (max. 8388607)
+ 392 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

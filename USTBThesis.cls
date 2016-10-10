@@ -34,7 +34,6 @@
 \usepackage{texnames}   %TeX家族标识符
 \usepackage[super,square,sort&compress]{natbib}   %参考文献设置
 \usepackage{float}      %表格位置
-\usepackage{url}        %网址
 %\usepackage{CJKvert}    %直排文字
 %%%%%%%%%%%%%%%%%%%%%%%%%论文信息%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %学校
