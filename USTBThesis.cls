@@ -15,6 +15,15 @@
 \NeedsTeXFormat{LaTeX2e}[2007/10/19]
 \ProvidesClass{USTBThesis}[2015/12/21 v0.1 USTBthesis document class]
 
+%定义模板学位选项
+\newif\ifustb@master\ustb@masterfalse
+\newif\ifustb@doctor\ustb@doctorfalse
+\DeclareOption{master}{\ustb@mastertrue}
+\DeclareOption{doctor}{\ustb@doctortrue}
+% 其余选项传递给ctexbook
+\DeclareOption*{\PassOptionsToClass{\CurrentOption}{ctexbook}}
+\ProcessOptions\relax
+% 引用ctexbook及基本设置
 \LoadClass[cs4size,a4paper,fancyhdr,twoside]{ctexbook}[2007/10/19]
 
 \usepackage{ulem}               %下划线强调
@@ -59,6 +68,21 @@
     \def\MajorCN{#1}
     \def\MajorEN{#2}
 }
+
+%学位
+\def\degreecn{}
+\def\degreeen{}
+\newcommand{\degree}[2]{%
+    \def\degreecn{#1}
+    \def\degreeen{#2}
+}
+\ifustb@doctor
+    \degree{博士}{Doctor of Philosophy}
+\else
+    \ifustb@master
+        \degree{硕士}{Master}
+    \fi
+\fi
 
 %论文标题
 \def\ThesisTitleCN{}

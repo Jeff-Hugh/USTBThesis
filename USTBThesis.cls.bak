@@ -17,7 +17,6 @@
 
 \LoadClass[cs4size,a4paper,fancyhdr,twoside]{ctexbook}[2007/10/19]
 
-\usepackage[dvips]{graphicx}        %竖排文字
 \usepackage{ulem}               %下划线强调
 \usepackage{fancyhdr}           %页眉页脚
 \usepackage{mathptmx}   %是英文字体为Times New Roman
@@ -34,8 +33,8 @@
 \usepackage{listings}   %插入代码
 \usepackage{texnames}   %TeX家族标识符
 \usepackage[super,square,sort&compress]{natbib}   %参考文献设置
-\usepackage{url}    %引用网址
-\usepackage{CJKvert}    %直排文字
+\usepackage{float}      %表格位置
+%\usepackage{CJKvert}    %直排文字
 %%%%%%%%%%%%%%%%%%%%%%%%%论文信息%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %学校
 \def\UniversityCN{北京科技大学}
@@ -146,3 +145,12 @@
 \titlecontents{subsection}[4em]{\vspace{0.1\baselineskip}\songti\zihao{-4}}{\thecontentslabel\ }{}
         {\hspace{.5em}\titlerule*[4pt]{$\cdot$}\contentspage}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%页眉%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[CO]{\zihao{5}北京科技大学博士学位论文}
+\fancyhead[CE]{\zihao{5} \ThesisTitleCN}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+

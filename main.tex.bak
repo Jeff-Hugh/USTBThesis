@@ -32,10 +32,6 @@
 \addcontentsline{toc}{chapter}{插图清单}
 \listoffigures
 
-\pagestyle{fancy}
-\fancyhead{}
-\fancyhead[CO]{\zihao{5}北京科技大学博士学位论文}
-\fancyhead[CE]{\zihao{5} \ThesisTitleCN}
 
 %第一章
 \include{chapter1}
@@ -51,6 +47,8 @@
 
 
 
+
+\addcontentsline{toc}{chapter}{参考文献}  %在目录中添加“参考文献”的标记
 \bibliographystyle{gbt7714-2005}
 \bibliography{ref}
 

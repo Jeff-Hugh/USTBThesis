@@ -1,13 +1,25 @@
 % !Mode:: "TeX:UTF-8"
 
-\begin{USTBAbstractCN}
+%中文摘要
+\chapter*{\centering 摘 \qquad 要 }
+\addcontentsline{toc}{chapter}{摘要}
 本文基于\LaTeX 使用手册，依据北京科技大学博士学位论文Word模板，
 
 
-\vskip 21bp
+\vskip 30bp
 \heiti \zihao{-4}
 % 在关键词冒号后添加你的关键词，使用全角逗号分割
 \textbf{关键词：\LaTeX ，博士论文，北京科技大学}
 
-\end{USTBAbstractCN}
+
+
+%英文摘要
+\chapter*{\centering Abstract }
+\addcontentsline{toc}{chapter}{Abstract}
+Based on the \LaTeX manual and referred to USTB word model for doctor, I
+
+\vskip 30bp
+\zihao{-4}
+% 在key words冒号后添加你的关键词，使用半角逗号加空格分割
+\textbf{Key Words: \LaTeX, Doctor Thesis, USTB}
 

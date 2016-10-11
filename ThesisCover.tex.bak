@@ -2,11 +2,19 @@
 
 %论文封面
 \newcommand{\makecover}{%
-    \rotatebox{-90}{\CJKvert \ThesisTitleCN}
-    \rotatebox{-90}{\CJKvert  \AuthorCN}
-    \rotatebox{-90}{\CJKvert  北京科技大学}
+    ~
+    \vspace{5em}
+    
+    \begin{tabular}[H]{p{60pt} p{1em}}
+    & \linespread{0.8}\selectfont \zihao{-2} \ThesisTitleCN \\
+    &\\
+    &\linespread{0.8}\selectfont \zihao{-2} \AuthorCN \\
+    &\\
+    &\linespread{0.8}\selectfont \zihao{-2} 北京科技大学
+    \end{tabular}
 }
 \makecover
+%\CJKhorz
 \pagestyle{empty}
 
 \newpage
