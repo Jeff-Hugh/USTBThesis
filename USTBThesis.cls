@@ -30,8 +30,10 @@
 \usepackage{fancyhdr}           %页眉页脚
 \usepackage{mathptmx}   %是英文字体为Times New Roman
 \usepackage{tabu}  %表格
-\usepackage{booktabs}   %表格
+\usepackage{booktabs}   %表格线宏包
+\usepackage{tabularx}   %调整表格列宽
 \usepackage{multirow}   %表格合并
+\usepackage{array}      %数组宏包，用于表格宽度
 \usepackage{multicol}   %表格合并
 \usepackage{longtable}  %表格合并
 \usepackage{rotating}   %表格合并
@@ -43,6 +45,8 @@
 \usepackage{texnames}   %TeX家族标识符
 \usepackage[super,square,sort&compress]{natbib}   %参考文献设置
 \usepackage{float}      %表格位置
+\usepackage{setspace}   %调整行距
+\usepackage{lastpage}   %得到论文页数
 %\usepackage{CJKvert}    %直排文字
 %%%%%%%%%%%%%%%%%%%%%%%%%论文信息%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %学校

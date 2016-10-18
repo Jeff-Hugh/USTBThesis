@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.24)  11 OCT 2016 09:25
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.24)  18 OCT 2016 23:07
 entering extended mode
 **D:/program/USTBThesis/main.tex
 (D:/program/USTBThesis/main.tex
@@ -437,23 +437,33 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count179
 \@thisrulewidth=\dimen167
 )
+(C:\CTEX\MiKTeX\tex\latex\tools\tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+\TX@col@width=\dimen168
+\TX@old@table=\dimen169
+\TX@old@col=\dimen170
+\TX@target=\dimen171
+\TX@delta=\dimen172
+\TX@cols=\count180
+\TX@ftn=\toks19
+)
 (C:\CTEX\MiKTeX\tex\latex\multirow\multirow.sty
-\bigstrutjot=\dimen168
+\bigstrutjot=\dimen173
 )
 (C:\CTEX\MiKTeX\tex\latex\tools\multicol.sty
 Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
-\c@tracingmulticols=\count180
+\c@tracingmulticols=\count181
 \mult@box=\box44
-\multicol@leftmargin=\dimen169
-\c@unbalance=\count181
-\c@collectmore=\count182
-\doublecol@number=\count183
-\multicoltolerance=\count184
-\multicolpretolerance=\count185
-\full@width=\dimen170
-\page@free=\dimen171
-\premulticols=\dimen172
-\postmulticols=\dimen173
+\multicol@leftmargin=\dimen174
+\c@unbalance=\count182
+\c@collectmore=\count183
+\doublecol@number=\count184
+\multicoltolerance=\count185
+\multicolpretolerance=\count186
+\full@width=\dimen175
+\page@free=\dimen176
+\premulticols=\dimen177
+\postmulticols=\dimen178
 \multicolsep=\skip62
 \multicolbaselineskip=\skip63
 \partial@page=\box45
@@ -479,14 +489,14 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \@tempa=\box65
 \@tempa=\box66
 \@tempa=\box67
-\c@columnbadness=\count186
-\c@finalcolumnbadness=\count187
-\last@try=\dimen174
-\multicolovershoot=\dimen175
-\multicolundershoot=\dimen176
+\c@columnbadness=\count187
+\c@finalcolumnbadness=\count188
+\last@try=\dimen179
+\multicolovershoot=\dimen180
+\multicolundershoot=\dimen181
 \mult@nat@firstbox=\box68
 \colbreak@box=\box69
-\multicol@sort@counter=\count188
+\multicol@sort@counter=\count189
 )
 (C:\CTEX\MiKTeX\tex\latex\tools\longtable.sty
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
@@ -494,34 +504,34 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTright=\skip65
 \LTpre=\skip66
 \LTpost=\skip67
-\LTchunksize=\count189
-\LTcapwidth=\dimen177
+\LTchunksize=\count190
+\LTcapwidth=\dimen182
 \LT@head=\box70
 \LT@firsthead=\box71
 \LT@foot=\box72
 \LT@lastfoot=\box73
-\LT@cols=\count190
-\LT@rows=\count191
-\c@LT@tables=\count192
-\c@LT@chunks=\count193
-\LT@p@ftn=\toks19
+\LT@cols=\count191
+\LT@rows=\count192
+\c@LT@tables=\count193
+\c@LT@chunks=\count194
+\LT@p@ftn=\toks20
 )
 (C:\CTEX\MiKTeX\tex\latex\rotating\rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 
 (C:\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
-\Gin@req@height=\dimen178
-\Gin@req@width=\dimen179
+\Gin@req@height=\dimen183
+\Gin@req@width=\dimen184
 )
 (C:\CTEX\MiKTeX\tex\latex\base\ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count194
+\c@r@tfl@t=\count195
 \rotFPtop=\skip68
 \rotFPbot=\skip69
 \rot@float@box=\box74
-\rot@mess@toks=\toks20
+\rot@mess@toks=\toks21
 )
 (C:\CTEX\MiKTeX\tex\latex\geometry\geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
@@ -530,18 +540,18 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
 Package ifvtex Info: VTeX not detected.
 )
-\Gm@cnth=\count195
-\Gm@cntv=\count196
-\c@Gm@tempcnt=\count197
-\Gm@bindingoffset=\dimen180
-\Gm@wd@mp=\dimen181
-\Gm@odd@mp=\dimen182
-\Gm@even@mp=\dimen183
-\Gm@layoutwidth=\dimen184
-\Gm@layoutheight=\dimen185
-\Gm@layouthoffset=\dimen186
-\Gm@layoutvoffset=\dimen187
-\Gm@dimlist=\toks21
+\Gm@cnth=\count196
+\Gm@cntv=\count197
+\c@Gm@tempcnt=\count198
+\Gm@bindingoffset=\dimen185
+\Gm@wd@mp=\dimen186
+\Gm@odd@mp=\dimen187
+\Gm@even@mp=\dimen188
+\Gm@layoutwidth=\dimen189
+\Gm@layoutheight=\dimen190
+\Gm@layouthoffset=\dimen191
+\Gm@layoutvoffset=\dimen192
+\Gm@dimlist=\toks22
 
 (C:\CTEX\MiKTeX\tex\latex\geometry\geometry.cfg))
 (C:\CTEX\MiKTeX\tex\latex\ams\math\amsmath.sty
@@ -554,77 +564,78 @@ Package: amstext 2000/06/29 v2.01
 
 (C:\CTEX\MiKTeX\tex\latex\ams\math\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks22
-\ex@=\dimen188
+\@emptytoks=\toks23
+\ex@=\dimen193
 ))
 (C:\CTEX\MiKTeX\tex\latex\ams\math\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen189
+\pmbraise@=\dimen194
 )
 (C:\CTEX\MiKTeX\tex\latex\ams\math\amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count198
+\inf@bad=\count199
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count199
-\leftroot@=\count200
+\uproot@=\count200
+\leftroot@=\count201
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count201
 Normal \count register pool exhausted, switching to extended pool.
-\DOTSCASE@=\count277
+\classnum@=\count277
+\DOTSCASE@=\count278
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
 \Mathstrutbox@=\box75
 \strutbox@=\box76
-\big@size=\dimen190
+\big@size=\dimen195
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count278
-\c@MaxMatrixCols=\count279
+\macc@depth=\count279
+\c@MaxMatrixCols=\count280
 \dotsspace@=\muskip10
-\c@parentequation=\count280
-\dspbrk@lvl=\count281
-\tag@help=\toks23
-\row@=\count282
-\column@=\count283
-\maxfields@=\count284
-\andhelp@=\toks24
-\eqnshift@=\dimen191
-\alignsep@=\dimen192
-\tagshift@=\dimen193
-\tagwidth@=\dimen194
-\totwidth@=\dimen195
-\lineht@=\dimen196
-\@envbody=\toks25
+\c@parentequation=\count281
+\dspbrk@lvl=\count282
+\tag@help=\toks24
+\row@=\count283
+\column@=\count284
+\maxfields@=\count285
+\andhelp@=\toks25
+\eqnshift@=\dimen196
+\alignsep@=\dimen197
+\tagshift@=\dimen198
+\tagwidth@=\dimen199
+\totwidth@=\dimen200
+\lineht@=\dimen201
+\@envbody=\toks26
 \multlinegap=\skip71
 \multlinetaggap=\skip72
-\mathdisplay@stack=\toks26
+\mathdisplay@stack=\toks27
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
 (C:\CTEX\MiKTeX\tex\latex\titlesec\titletoc.sty
 Package: titletoc 2011/12/15 v1.6 TOC entries
-\ttl@leftsep=\dimen197
+Normal \dimen register pool exhausted, switching to extended pool.
+\ttl@leftsep=\dimen256
 )
 (C:\CTEX\MiKTeX\tex\latex\listings\listings.sty
-\lst@mode=\count285
+\lst@mode=\count286
 \lst@gtempboxa=\box77
-\lst@token=\toks27
-\lst@length=\count286
-\lst@currlwidth=\dimen198
-\lst@column=\count287
-\lst@pos=\count288
-\lst@lostspace=\dimen199
-\lst@width=\dimen200
-\lst@newlines=\count289
-\lst@lineno=\count290
-\lst@maxwidth=\dimen201
+\lst@token=\toks28
+\lst@length=\count287
+\lst@currlwidth=\dimen257
+\lst@column=\count288
+\lst@pos=\count289
+\lst@lostspace=\dimen258
+\lst@width=\dimen259
+\lst@newlines=\count290
+\lst@lineno=\count291
+\lst@maxwidth=\dimen260
 
 (C:\CTEX\MiKTeX\tex\latex\listings\lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
-\c@lstnumber=\count291
-\lst@skipnumbers=\count292
+\c@lstnumber=\count292
+\lst@skipnumbers=\count293
 \lst@framebox=\box78
 )
 (C:\CTEX\MiKTeX\tex\latex\listings\listings.cfg
@@ -639,21 +650,29 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip73
 \bibsep=\skip74
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count293
+\c@NAT@ctr=\count294
 )
 (C:\CTEX\MiKTeX\tex\latex\float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count294
-\float@exts=\toks28
+\c@float@type=\count295
+\float@exts=\toks29
 \float@box=\box79
-\@float@everytoks=\toks29
+\@float@everytoks=\toks30
 \@floatcapt=\box80
-)) (D:\program\USTBThesis\main.aux
-(D:\program\USTBThesis\ThesisInfo.aux) (D:\program\USTBThesis\ThesisCover.aux)
-(D:\program\USTBThesis\MyThanks.aux) (D:\program\USTBThesis\MyAbstract.aux)
-(D:\program\USTBThesis\MyPreface.aux) (D:\program\USTBThesis\chapter1.aux)
-(D:\program\USTBThesis\chapter2.aux) (D:\program\USTBThesis\chapter3.aux)
-(D:\program\USTBThesis\chapter4.aux))
+)
+(C:\CTEX\MiKTeX\tex\latex\setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(C:\CTEX\MiKTeX\tex\latex\lastpage\lastpage.sty
+Package: lastpage 2011/09/01 v1.2k Refers to last page's name (HMM; JPG)
+))
+(D:\program\USTBThesis\main.aux (D:\program\USTBThesis\ThesisInfo.aux)
+(D:\program\USTBThesis\ThesisCover.aux) (D:\program\USTBThesis\MyThanks.aux)
+(D:\program\USTBThesis\MyAbstract.aux) (D:\program\USTBThesis\MyPreface.aux)
+(D:\program\USTBThesis\chapter1.aux) (D:\program\USTBThesis\chapter2.aux)
+(D:\program\USTBThesis\chapter3.aux) (D:\program\USTBThesis\chapter4.aux)
+(D:\program\USTBThesis\biography.aux) (D:\program\USTBThesis\statement.aux)
+(D:\program\USTBThesis\dataset.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
@@ -733,24 +752,21 @@ LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 3.
-
-(C:\CTEX\MiKTeX\tex\latex\psnfss\ot1ptm.fd
+ (C:\CTEX\MiKTeX\tex\latex\psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-(C:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
+) (C:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count295
-Normal \dimen register pool exhausted, switching to extended pool.
-\scratchdimen=\dimen256
+\scratchcounter=\count296
+\scratchdimen=\dimen261
 \scratchbox=\box81
-\nofMPsegments=\count296
-\nofMParguments=\count297
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count298
-\MPscratchDim=\dimen257
-\MPnumerator=\count299
-\makeMPintoPDFobject=\count300
-\everyMPtoPDFconversion=\toks31
+\nofMPsegments=\count297
+\nofMParguments=\count298
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count299
+\MPscratchDim=\dimen262
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
+\everyMPtoPDFconversion=\toks32
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -786,7 +802,14 @@ Normal \dimen register pool exhausted, switching to extended pool.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count301
+\c@lstlisting=\count302
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             macros/latex/contrib/pageslts/ 
+(lastpage)             or
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             install/macros/latex/contrib/pageslts.tds.zip
+(lastpage)             ! on input line 3.
 (C:\CTEX\MiKTeX\tex\latex\cjk\standard.bdg
 File: standard.bdg 2008/12/29 4.8.2
 )
@@ -863,7 +886,7 @@ Overfull \hbox (6.01999pt too wide) in paragraph at lines 16--16
 
 
 Overfull \hbox (6.01999pt too wide) in paragraph at lines 16--16
-\C19/rm/m/n/18.07/56 a
+\C19/rm/m/n/18.07/37 Æ
  []
 
 
@@ -1015,7 +1038,7 @@ Underfull \hbox (badness 10000) detected at line 144
 
 [1]) (D:\program\USTBThesis\MyThanks.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.09> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 ) [1
 
 
@@ -1110,14 +1133,17 @@ m/m/n/12.05 begin\OMS/cmsy/m/n/12.05 f\OT1/ptm/m/n/12.05 figure*\OMS/cmsy/m/n/1
 
 
 
-] <figures/OpenSource.png, id=151, 803.0pt x 501.875pt>
+] <figures/OpenSource.png, id=150, 803.0pt x 501.875pt>
 File: figures/OpenSource.png Graphic file (type png)
 
 <use figures/OpenSource.png>
 Package pdftex.def Info: figures/OpenSource.png used on input line 49.
 (pdftex.def)             Requested size: 341.43306pt x 213.39743pt.
- [6 <D:/program/USTBThesis/figures/OpenSource.png>]) [7] (D:\program\USTBThesis
-\chapter4.tex [8
+
+Underfull \vbox (badness 2384) has occurred while \output is active []
+
+ [6 <D:/program/USTBThesis/figures/OpenSource.png>]) [7]
+(D:\program\USTBThesis\chapter4.tex [8
 
 
 
@@ -1133,53 +1159,94 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--16
 [9]) [10] (D:\program\USTBThesis\main.bbl) [11
 
 
-] (D:\program\USTBThesis\main.aux (D:\program\USTBThesis\ThesisInfo.aux) (D:\pr
-ogram\USTBThesis\ThesisCover.aux) (D:\program\USTBThesis\MyThanks.aux) (D:\prog
-ram\USTBThesis\MyAbstract.aux)
-(D:\program\USTBThesis\MyPreface.aux) (D:\program\USTBThesis\chapter1.aux)
-(D:\program\USTBThesis\chapter2.aux) (D:\program\USTBThesis\chapter3.aux)
-(D:\program\USTBThesis\chapter4.aux)) ) 
+]
+(D:\program\USTBThesis\biography.tex [12
+
+
+]
+Overfull \hbox (31.83484pt too wide) in paragraph at lines 8--14
+[][] 
+ []
+
+) [13] (D:\program\USTBThesis\statement.tex [14
+
+
+
+]) [15]
+(D:\program\USTBThesis\dataset.tex [16
+
+
+
+]
+Underfull \hbox (badness 6708) in paragraph at lines 19--19
+[]|\C19/zhhei/m/n/10.54/37  \C19/zhhei/m/n/10.54/46 ® \C19/zhhei/m/n/10.54/55 
+½ \C19/zhhei/m/n/10.54/43 °
+ []
+
+
+Underfull \hbox (badness 6708) in paragraph at lines 19--19
+\C19/zhhei/m/n/10.54/40 D \C19/zhhei/m/n/10.54/53 « \C19/zhhei/m/n/10.54/60 Æ \
+C19/zhhei/m/n/10.54/63 
+ []
+
+)
+Overfull \hbox (38.09457pt too wide) in paragraph at lines 4--63
+[] 
+ []
+
+
+Overfull \vbox (24.09348pt too high) has occurred while \output is active []
+
+
+[17] 
+AED: lastpage setting LastPage
+(D:\program\USTBThesis\main.aux (D:\program\USTBThesis\ThesisInfo.aux)
+(D:\program\USTBThesis\ThesisCover.aux) (D:\program\USTBThesis\MyThanks.aux)
+(D:\program\USTBThesis\MyAbstract.aux) (D:\program\USTBThesis\MyPreface.aux)
+(D:\program\USTBThesis\chapter1.aux) (D:\program\USTBThesis\chapter2.aux)
+(D:\program\USTBThesis\chapter3.aux) (D:\program\USTBThesis\chapter4.aux)
+(D:\program\USTBThesis\biography.aux) (D:\program\USTBThesis\statement.aux)
+(D:\program\USTBThesis\dataset.aux)) ) 
 Here is how much of TeX's memory you used:
- 14217 strings out of 495354
- 225034 string characters out of 3183858
- 273398 words of memory out of 3000000
- 16940 multiletter control sequences out of 15000+200000
- 133031 words of font info for 360 fonts, out of 3000000 for 9000
+ 14475 strings out of 495354
+ 230004 string characters out of 3183858
+ 278770 words of memory out of 3000000
+ 17167 multiletter control sequences out of 15000+200000
+ 138653 words of font info for 379 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  41i,12n,47p,905b,653s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Windows/Fonts/simhei.ttf><C:/Windows
-/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf>{C:/CTEX/MiKTeX/fonts/enc/dvips/
-fontname/8r.enc}<C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/W
+<C:/Windows/Fonts/simhei.ttf><C:/Windows/
+Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf>{C:/CTEX/MiKTeX/fonts/enc/dvips/f
+ontname/8r.enc}<C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Wi
+ndows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.tt
+f><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/s
+imhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows
+/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:
+/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei
+.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Font
+s/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Wind
+ows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc>
+<C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/sim
+sun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/F
+onts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/W
 indows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.t
 tf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/
 simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Window
 s/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C
-:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhe
-i.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fon
+:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsu
+n.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fon
 ts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Win
 dows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc
 ><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/si
-msun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/
-Fonts/simsun.ttc><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/
-Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.
-ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts
-/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windo
-ws/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><
-C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/sims
-un.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fo
-nts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Wi
-ndows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.tt
-c><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/s
-imsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows
-/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:
-/Windows/Fonts/simsun.ttc><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.
-pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiKTeX/f
-onts/type1/urw/symbol/usyr.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb
-><C:/CTEX/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/CTEX/MiKTeX/fonts/type1/u
-rw/times/utmri8a.pfb>
-Output written on main.pdf (32 pages, 428609 bytes).
+msun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/
+Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/
+CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/symbol/usyr.pfb
+><C:/CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/CTEX/MiKTeX/fonts/type1/u
+rw/times/utmr8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (38 pages, 450396 bytes).
 PDF statistics:
- 396 PDF objects out of 1000 (max. 8388607)
+ 413 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
