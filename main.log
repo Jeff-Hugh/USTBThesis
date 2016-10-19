@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.24)  18 OCT 2016 23:07
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.24)  19 OCT 2016 11:06
 entering extended mode
 **D:/program/USTBThesis/main.tex
 (D:/program/USTBThesis/main.tex
@@ -1177,28 +1177,7 @@ Overfull \hbox (31.83484pt too wide) in paragraph at lines 8--14
 
 
 
-]
-Underfull \hbox (badness 6708) in paragraph at lines 19--19
-[]|\C19/zhhei/m/n/10.54/37  \C19/zhhei/m/n/10.54/46 ® \C19/zhhei/m/n/10.54/55 
-½ \C19/zhhei/m/n/10.54/43 °
- []
-
-
-Underfull \hbox (badness 6708) in paragraph at lines 19--19
-\C19/zhhei/m/n/10.54/40 D \C19/zhhei/m/n/10.54/53 « \C19/zhhei/m/n/10.54/60 Æ \
-C19/zhhei/m/n/10.54/63 
- []
-
-)
-Overfull \hbox (38.09457pt too wide) in paragraph at lines 4--63
-[] 
- []
-
-
-Overfull \vbox (24.09348pt too high) has occurred while \output is active []
-
-
-[17] 
+]) [17] 
 AED: lastpage setting LastPage
 (D:\program\USTBThesis\main.aux (D:\program\USTBThesis\ThesisInfo.aux)
 (D:\program\USTBThesis\ThesisCover.aux) (D:\program\USTBThesis\MyThanks.aux)
@@ -1210,11 +1189,11 @@ AED: lastpage setting LastPage
 Here is how much of TeX's memory you used:
  14475 strings out of 495354
  230004 string characters out of 3183858
- 278770 words of memory out of 3000000
+ 290770 words of memory out of 3000000
  17167 multiletter control sequences out of 15000+200000
  138653 words of font info for 379 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,12n,47p,905b,653s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,12n,47p,905b,700s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Windows/Fonts/simhei.ttf><C:/Windows/
 Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf>{C:/CTEX/MiKTeX/fonts/enc/dvips/f
 ontname/8r.enc}<C:/Windows/Fonts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Wi
@@ -1244,7 +1223,7 @@ CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/symbol/usyr.pfb
 ><C:/CTEX/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/CTEX/MiKTeX/fonts/type1/u
 rw/times/utmr8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (38 pages, 450396 bytes).
+Output written on main.pdf (38 pages, 450527 bytes).
 PDF statistics:
  413 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

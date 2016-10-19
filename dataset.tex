@@ -1,8 +1,10 @@
 % !Mode:: "TeX:UTF-8"
 
 \chapter*{\centering 学位论文数据集}
-\zihao{5} \noindent
-\begin{tabular}{|lp{2cm}|lp{2.2cm}|lp{2cm}|lp{2.2cm}|lp{2cm}} %{|l|l|l|l|l|}
+\begin{table}[htbp]
+\centering
+\zihao{5} \noindent\makebox[\textwidth]{%
+\begin{tabularx}{1.1\textwidth}{|X|X|X|X|X|}
 \toprule
 关键词* & 密级* & 中国分类号* & UDC & 论文资助 \\ \hline
     &   &   &   &   \\
@@ -26,7 +28,7 @@
 导师姓名*    & \multicolumn{2}{|l|}{\TeacherCN ，\SubTeacherCN }    & 职称*    &   \TeacherJobtitle ， \SubTeacherJobtitle \\
 \midrule
 评阅人    & \multicolumn{2}{|l|}{答辩委员会主席* }    & \multicolumn{2}{|l|}{答辩委员会成员 } \\ \hline
-   & \multicolumn{2}{|l|}{}    & \multicolumn{2}{l}{ } \\
+   & \multicolumn{2}{|l|}{}    & \multicolumn{2}{|l|}{ } \\
 \midrule
 \multicolumn{5}{|l|}{电子版论文提交格式 \quad 文本（\quad）图像（\quad）视频（\quad）音频（\quad）多媒体（ \quad ）其他（ \quad ）} \\
 \multicolumn{5}{|l|}{推荐格式：application/msword；application/pdf} \\
@@ -37,4 +39,5 @@
 论文总页数* & \multicolumn{4}{|l|}{\pageref{LastPage}-3} \\ \hline
 \multicolumn{5}{|l|}{共 33 项，其中带*为必填数据，为 22 项。} \\
 \bottomrule
-\end{tabular}
+\end{tabularx}}
+\end{table}
