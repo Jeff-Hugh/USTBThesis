@@ -10,4 +10,4 @@
 ###至2016年3月23日，论文封面信息指导教师只有两个。
 ------
 ##文件简要说明
-主文件为main.tex，其中各章节文件命名为chapter.tex，论文相关信息（作者，指导教师，论文题目等）在ThesisInfo.tex文件中修改，摘要在MyAbstract.tex中修改，致谢在MyThanks.tex中修改，论文前序在MyPreface.tex中修改，引用文献信息保存为ref.bib文件，模板文件为USTBThesis.cls。各文件保存后对主文件编译即可（注意：各文件需保持编码格式相同）。
+主文件为main.tex，其中各章节文件命名为chapter.tex，论文相关信息（作者，指导教师，论文题目等）在ThesisInfo.tex文件中修改，摘要在MyAbstract.tex中修改，致谢在MyThanks.tex中修改，论文前序在MyPreface.tex中修改，个人简历在biogrephy.tex中修改，独创性声明已写入statement.tex中（此部分不必修改），论文数据集在dataset.tex中修改，引用文献信息保存为ref.bib文件，模板文件为USTBThesis.cls。各文件保存后对主文件编译即可（注意：各文件需保持编码格式相同）。
