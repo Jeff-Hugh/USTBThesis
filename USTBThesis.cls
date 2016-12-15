@@ -47,6 +47,7 @@
 \usepackage{float}      %表格位置
 \usepackage{setspace}   %调整行距
 \usepackage{lastpage}   %得到论文页数
+\usepackage{subfig}
 %\usepackage{CJKvert}    %直排文字
 %%%%%%%%%%%%%%%%%%%%%%%%%论文信息%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %学校
@@ -162,6 +163,18 @@
 \CTEXsetup[format={\Large\bf}]{section}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%公式、图名和表名用“2-3”形式表示
+makeatletter
+\numberwithin{figure}{chapter}
+\numberwithin{table}{chapter}
+\renewcommand{\thefigure}{\thechapter-\arabic{figure}}
+\renewcommand{\thetable}{\thechapter-\arabic{table}}
+\@addtoreset{equation}{section}
+\makeatother
+\captionsetup{font=small}
+\renewcommand\theequation{\arabic{section}-\arabic{equation}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%目录%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

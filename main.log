@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.24)  19 OCT 2016 11:06
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.24)  15 DEC 2016 19:32
 entering extended mode
 **D:/program/USTBThesis/main.tex
 (D:/program/USTBThesis/main.tex
@@ -1004,34 +1004,34 @@ Overfull \hbox (6.02pt too wide) in paragraph at lines 16--16
 ]
 \Mycode=\skip75
 Package CJKpunct Info: punctuation spaces for family 'zhsong' do not exist. Use
- family 'def' instead. on input line 29.
+ family 'def' instead. on input line 28.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <18.07> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16.06> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.05> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.54> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <15.06> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.03> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
  [1] [2
 
 ] [1] [2
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 119.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 118.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 119.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 118.
 Package CJKpunct Info: punctuation spaces for family 'zhhei' do not exist. Use 
-family 'def' instead. on input line 131.
+family 'def' instead. on input line 130.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.53> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 135.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
 
-Underfull \hbox (badness 10000) detected at line 144
+Underfull \hbox (badness 10000) detected at line 143
 \OT1/ptm/m/n/14.05 2016\C19/rm/m/n/14.05/51 c\OT1/ptm/m/n/14.05 04\C19/rm/m/n/1
 4.05/63 \OT1/ptm/m/n/14.05 25\C19/rm/m/n/14.05/54 F
  []
