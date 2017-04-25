@@ -165,7 +165,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %公式、图名和表名用“2-3”形式表示
-makeatletter
+\makeatletter
 \numberwithin{figure}{chapter}
 \numberwithin{table}{chapter}
 \renewcommand{\thefigure}{\thechapter-\arabic{figure}}
