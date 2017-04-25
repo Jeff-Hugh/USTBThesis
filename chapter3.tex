@@ -5,35 +5,35 @@
 论文中的表格一般使用三线表进行绘制，以下使用tabular环境举例。\par
 表 \ref{student_info} 是一个简单的例子。 \par
 \begin{table}
-\caption{学生信息}
 \label{student_info}
 \begin{center}
+\caption{\textbf{学生信息}}
 \begin{tabular}{ccc}
-    \hline
+    \toprule
     学号  &   姓名  &   班级\\
-    \hline
+    \midrule
     b20150001   &   张三  &   一班\\
     b20150002   &   李四  &   二班\\
     b20150003   &   王五  &   三班\\
-    \hline
+    \bottomrule
 \end{tabular}
 \end{center}
 \end{table}
 
 表\ref{student_info2}是一个多行多列表格的例子。 \par
 \begin{table}
-\caption{学生信息2}
 \label{student_info2}
 \begin{center}
+\caption{\textbf{学生信息2}}
 \begin{tabular}{cccc}
-    \hline
+    \toprule
     \multirow{2}{*}{学号}  &  \multirow{2}{*}{姓名}  &   \multicolumn{2}{c}{联系方式}\\
         &   &   Email   &   手机号\\
-    \hline
+    \midrule
     b20150001   &   张三  &   12345678@qq.com &   13811110001\\
     b20150002   &   李四  &       &   13912345678\\
     b20150003   &   王五  &   helloworld@gmail.com    &   \\
-    \hline
+    \bottomrule
 \end{tabular}
 \end{center}
 \end{table}
@@ -51,7 +51,7 @@
 %width 指定图片的宽度
 %angle 指定图片旋转的角度
 %scale 缩放图形
-\caption{Example twig query and documents }     %插入图片的标题，一般放在图片的下方，放在表格的上方
+\caption{\textbf{Example twig query and documents }}    %插入图片的标题，一般放在图片的下方，放在表格的上方
 \label{fig_example1}
 \end{figure}
 

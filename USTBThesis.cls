@@ -168,8 +168,10 @@
 \makeatletter
 \numberwithin{figure}{chapter}
 \numberwithin{table}{chapter}
-\renewcommand{\thefigure}{\thechapter-\arabic{figure}}
-\renewcommand{\thetable}{\thechapter-\arabic{table}}
+\renewcommand{\figurename}{\textbf{Í¼}}
+\renewcommand{\thefigure}{\textbf{\thechapter-\arabic{figure}}}
+\renewcommand{\tablename}{\textbf{±í}}
+\renewcommand{\thetable}{\textbf{\thechapter-\arabic{table}}}
 \@addtoreset{equation}{chapter}
 \makeatother
 \captionsetup{font=small}
