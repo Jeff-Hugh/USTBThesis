@@ -170,10 +170,10 @@
 \numberwithin{table}{chapter}
 \renewcommand{\thefigure}{\thechapter-\arabic{figure}}
 \renewcommand{\thetable}{\thechapter-\arabic{table}}
-\@addtoreset{equation}{section}
+\@addtoreset{equation}{chapter}
 \makeatother
 \captionsetup{font=small}
-\renewcommand\theequation{\arabic{section}-\arabic{equation}}
+\renewcommand\theequation{\arabic{chapter}-\arabic{equation}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%Ŀ¼%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
