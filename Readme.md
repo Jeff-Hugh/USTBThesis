@@ -9,13 +9,12 @@
 ### 项目补充说明
 >* 论文封面信息指导教师只有两个。
 >* 模板文件有两个可选择项：master（硕士）和doctor（博士）
-	```TeX
+
+```TeX
 	\documentclass[doctor]{USTBThesis}
-	```
-	或者
-	```TeX
+	% 或者
 	\documentclass[master]{USTBThesis}
-	```
+```
 
 ### 文件简要说明
 |功能|文件|
@@ -32,4 +31,4 @@
 |引用文献信息|ref.bib|
 |模板文件|USTBThesis.cls|
 
-各文件保存后对主文件编译即可（注意：各文件需保持UTF-8编码格式相同）。
+各文件保存后对主文件编译即可（注意：各文件需存储为UTF-8编码格式）。
