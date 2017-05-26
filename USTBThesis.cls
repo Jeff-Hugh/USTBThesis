@@ -24,10 +24,12 @@
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{ctexbook}}
 \ProcessOptions\relax
 % 引用ctexbook及基本设置
-\LoadClass[cs4size,a4paper,fancyhdr,twoside,hyperref,UTF8]{ctexbook}[2007/10/19]
+\LoadClass[cs4size,a4paper,fancyhdr,twoside,UTF8]{ctexbook}[2007/10/19]
 
-\usepackage[super,square,sort&compress,numbers]{natbib}
-%\usepackage[super,square,sort&compress]{natbib}   %参考文献设置
+\usepackage[pdfstartview=FitH, CJKbookmarks=true, bookmarksnumbered=true,
+bookmarksopen=true, colorlinks=false, colorlinks=black,
+pdfborder=100, citecolor=black ]{hyperref}		% 书签设置
+\usepackage[super,square,numbers,sort&compress]{natbib}	%参考文献设置
 \usepackage{ulem}               %下划线强调
 \usepackage{fancyhdr}           %页眉页脚
 \usepackage{mathptmx}   %是英文字体为Times New Roman
@@ -188,8 +190,4 @@
         {\hspace{.5em}\titlerule*[4pt]{$\cdot$}\contentspage}
 \titlecontents{subsection}[4em]{\vspace{0.1\baselineskip}\songti\zihao{-4}}{\thecontentslabel\ }{}
         {\hspace{.5em}\titlerule*[4pt]{$\cdot$}\contentspage}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
