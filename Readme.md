@@ -8,6 +8,20 @@
 请使用CTEX宏包进行编译，可以使用PdfLaTeX和XeLaTeX进行编译，各文件需保存为UTF-8格式。具体使用方法（LaTeX新手指南）详见本项目Wiki。
 ### 项目补充说明
 >* 论文封面信息指导教师只有两个。
+>* ref.bib文件中中文请添加语言项，如：
+
+```TeX
+	@article{ref2017,
+		title={参考文件的语言选择标注},
+		author={Xiao Ming},
+		journal={GitHub},
+		volume={1},
+		number={1},
+		pages={1-2},
+		language={zh},
+		year={2017}
+	}
+```
 >* 模板文件有两个可选择项：master（硕士）和doctor（博士）
 
 ```TeX
