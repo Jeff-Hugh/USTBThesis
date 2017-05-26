@@ -15,58 +15,61 @@
 \NeedsTeXFormat{LaTeX2e}[2007/10/19]
 \ProvidesClass{USTBThesis}[2015/12/21 v0.1 USTBthesis document class]
 
-%¶¨ÒåÄ£°åÑ§Î»Ñ¡Ïî
+%å®šä¹‰æ¨¡æ¿å­¦ä½é€‰é¡¹
 \newif\ifustb@master\ustb@masterfalse
 \newif\ifustb@doctor\ustb@doctorfalse
 \DeclareOption{master}{\ustb@mastertrue}
 \DeclareOption{doctor}{\ustb@doctortrue}
-% ÆäÓàÑ¡Ïî´«µİ¸øctexbook
+% å…¶ä½™é€‰é¡¹ä¼ é€’ç»™ctexbook
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{ctexbook}}
 \ProcessOptions\relax
-% ÒıÓÃctexbook¼°»ù±¾ÉèÖÃ
-\LoadClass[cs4size,a4paper,fancyhdr,twoside]{ctexbook}[2007/10/19]
+% å¼•ç”¨ctexbookåŠåŸºæœ¬è®¾ç½®
+\LoadClass[cs4size,a4paper,fancyhdr,twoside,hyperref,UTF8]{ctexbook}[2007/10/19]
 
-\usepackage{ulem}               %ÏÂ»®ÏßÇ¿µ÷
-\usepackage{fancyhdr}           %Ò³Ã¼Ò³½Å
-\usepackage{mathptmx}   %ÊÇÓ¢ÎÄ×ÖÌåÎªTimes New Roman
-\usepackage{tabu}  %±í¸ñ
-\usepackage{booktabs}   %±í¸ñÏßºê°ü
-\usepackage{tabularx}   %µ÷Õû±í¸ñÁĞ¿í
-\usepackage{multirow}   %±í¸ñºÏ²¢
-\usepackage{array}      %Êı×éºê°ü£¬ÓÃÓÚ±í¸ñ¿í¶È
-\usepackage{multicol}   %±í¸ñºÏ²¢
-\usepackage{longtable}  %±í¸ñºÏ²¢
-\usepackage{rotating}   %±í¸ñºÏ²¢
-\usepackage[top=30mm, bottom=20mm, left=30mm, right=30mm]{geometry}  %Ò³Ãæ±ß¾àÉèÖÃ
-\usepackage{graphicx}   %²åÍ¼
-\usepackage{amsmath}    %¹«Ê½»»ĞĞ
-\usepackage{titletoc}   %Ä¿Â¼
-\usepackage{listings}   %²åÈë´úÂë
-\usepackage{texnames}   %TeX¼Ò×å±êÊ¶·û
-\usepackage[super,square,sort&compress]{natbib}   %²Î¿¼ÎÄÏ×ÉèÖÃ
-\usepackage{float}      %±í¸ñÎ»ÖÃ
-\usepackage{setspace}   %µ÷ÕûĞĞ¾à
-\usepackage{lastpage}   %µÃµ½ÂÛÎÄÒ³Êı
+\usepackage[super,square,sort&compress,numbers]{natbib}
+%\usepackage[super,square,sort&compress]{natbib}   %å‚è€ƒæ–‡çŒ®è®¾ç½®
+\usepackage{ulem}               %ä¸‹åˆ’çº¿å¼ºè°ƒ
+\usepackage{fancyhdr}           %é¡µçœ‰é¡µè„š
+\usepackage{mathptmx}   %æ˜¯è‹±æ–‡å­—ä½“ä¸ºTimes New Roman
+\usepackage{tabu}  %è¡¨æ ¼
+\usepackage{booktabs}   %è¡¨æ ¼çº¿å®åŒ…
+\usepackage{tabularx}   %è°ƒæ•´è¡¨æ ¼åˆ—å®½
+\usepackage{multirow}   %è¡¨æ ¼åˆå¹¶
+\usepackage{array}      %æ•°ç»„å®åŒ…ï¼Œç”¨äºè¡¨æ ¼å®½åº¦
+\usepackage{multicol}   %è¡¨æ ¼åˆå¹¶
+\usepackage{longtable}  %è¡¨æ ¼åˆå¹¶
+\usepackage{rotating}   %è¡¨æ ¼åˆå¹¶
+\usepackage[top=30mm, bottom=20mm, left=30mm, right=30mm]{geometry}  %é¡µé¢è¾¹è·è®¾ç½®
+\usepackage{graphicx}   %æ’å›¾
+\usepackage{amsmath}    %å…¬å¼æ¢è¡Œ
+\usepackage{titletoc}   %ç›®å½•
+\usepackage{titlesec}	%ç« èŠ‚
+\usepackage{listings}   %æ’å…¥ä»£ç 
+\usepackage{texnames}   %TeXå®¶æ—æ ‡è¯†ç¬¦
+\usepackage{float}      %è¡¨æ ¼ä½ç½®
+\usepackage{setspace}   %è°ƒæ•´è¡Œè·
+\usepackage{lastpage}   %å¾—åˆ°è®ºæ–‡é¡µæ•°
 \usepackage{subfig}
-%\usepackage{CJKvert}    %Ö±ÅÅÎÄ×Ö
-%%%%%%%%%%%%%%%%%%%%%%%%%ÂÛÎÄĞÅÏ¢%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Ñ§Ğ£
-\def\UniversityCN{±±¾©¿Æ¼¼´óÑ§}
+\usepackage{enumerate}	%è‡ªå®šä¹‰åˆ—è¡¨ç¼–å·
+%\usepackage{CJKvert}    %ç›´æ’æ–‡å­—
+%%%%%%%%%%%%%%%%%%%%%%%%%è®ºæ–‡ä¿¡æ¯%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%å­¦æ ¡
+\def\UniversityCN{åŒ—äº¬ç§‘æŠ€å¤§å­¦}
 \def\UniversityEN{University of Science and Technology Beijing}
 \newcommand{\university}[2]{%
     \def\UniversityCN{#1}
     \def\UniversityEN{#2}
 }
 
-%Ñ§Ôº
-\def\SchoolCN{ÍÁÄ¾Óë»·¾³¹¤³ÌÑ§Ôº}
+%å­¦é™¢
+\def\SchoolCN{åœŸæœ¨ä¸ç¯å¢ƒå·¥ç¨‹å­¦é™¢}
 \def\SchoolEN{School of Civil and Environmental Engineering}
 \newcommand{\school}[2]{%
     \def\SchoolCN{#1}
    \def\SchoolEN{#2}
 }
 
-%×¨Òµ
+%ä¸“ä¸š
 \def\MajorCN{}
 \def\MajorEN{}
 \newcommand{\major}[2]{%
@@ -74,7 +77,7 @@
     \def\MajorEN{#2}
 }
 
-%Ñ§Î»
+%å­¦ä½
 \def\degreecn{}
 \def\degreeen{}
 \newcommand{\degree}[2]{%
@@ -82,14 +85,14 @@
     \def\degreeen{#2}
 }
 \ifustb@doctor
-    \degree{²©Ê¿}{Doctor of Philosophy}
+    \degree{åšå£«}{Doctor of Philosophy}
 \else
     \ifustb@master
-        \degree{Ë¶Ê¿}{Master}
+        \degree{ç¡•å£«}{Master}
     \fi
 \fi
 
-%ÂÛÎÄ±êÌâ
+%è®ºæ–‡æ ‡é¢˜
 \def\ThesisTitleCN{}
 \def\ThesisTitleEN{}
 \def\ThesisSubTitleCN{}
@@ -101,7 +104,7 @@
     \def\ThesisSubTitleEN{#4}
 }
 
-%×÷Õß
+%ä½œè€…
 \def\AuthorCN{}
 \def\AuthorEN{}
 \newcommand{\thesisauthor}[2]{%
@@ -109,13 +112,13 @@
     \def\AuthorEN{#2}
 }
 
-%Ñ§ºÅ
+%å­¦å·
 \def\StudentID{}
 \newcommand{\authorid}[1]{%
     \def\StudentID{#1}
 }
 
-% Ö¸µ¼ÀÏÊ¦
+% æŒ‡å¯¼è€å¸ˆ
 \def\TeacherCN{}
 \def\TeacherEN{}
 \def\TeacherDepartment{}
@@ -127,7 +130,7 @@
     \def\TeacherJobtitle{#4}
 }
 
-% ¸±Ö¸µ¼ÀÏÊ¦
+% å‰¯æŒ‡å¯¼è€å¸ˆ
 \def\SubTeacherCN{}
 \def\SubTeacherEN{}
 \def\SubTeacherDepartment{}
@@ -139,13 +142,13 @@
     \def\SubTeacherJobtitle{#4}
 }
 
-% ·ÖÀàºÅ
+% åˆ†ç±»å·
 \def\ThesisCategory{}
 \newcommand{\category}[1]{%
     \def\ThesisCategory{#1}
 }
 
-% ÂÛÎÄÌá½»ÈÕÆÚ
+% è®ºæ–‡æäº¤æ—¥æœŸ
 \def\ThesisYear{}
 \def\ThesisMonth{}
 \def\ThesisDay{}
@@ -156,7 +159,7 @@
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%¶¨Òå±êÌâ¸ñÊ½%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%å®šä¹‰æ ‡é¢˜æ ¼å¼%%%%%%%%%%%%%%%%%%%%%%%%%%
 \CTEXsetup[number={\arabic{chapter}}]{chapter}
 \CTEXsetup[name={,}]{chapter}
 \CTEXsetup[format={\raggedright}]{chapter}
@@ -164,27 +167,29 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%¹«Ê½¡¢Í¼ÃûºÍ±íÃûÓÃ¡°2-3¡±ĞÎÊ½±íÊ¾
+%å…¬å¼ã€å›¾åå’Œè¡¨åç”¨â€œ2-3â€å½¢å¼è¡¨ç¤º
 \makeatletter
 \numberwithin{figure}{chapter}
 \numberwithin{table}{chapter}
-\renewcommand{\figurename}{\textbf{Í¼}}
-\renewcommand{\thefigure}{\textbf{\thechapter-\arabic{figure}}}
-\renewcommand{\tablename}{\textbf{±í}}
-\renewcommand{\thetable}{\textbf{\thechapter-\arabic{table}}}
+\renewcommand{\thefigure}{\thechapter-\arabic{figure}}
+\renewcommand{\thetable}{\thechapter-\arabic{table}}
 \@addtoreset{equation}{chapter}
 \makeatother
 \captionsetup{font=small}
 \renewcommand\theequation{\arabic{chapter}-\arabic{equation}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%Ä¿Â¼%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%ç›®å½•%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\renewcommand{\contentsname}{\centering Ä¿\quad Â¼}
+\renewcommand{\contentsname}{\centering ç›®\quad å½•}
 \titlecontents{chapter}[0pt]{\heiti\zihao{-4}}{\thecontentslabel\ }{}
         {\hspace{.5em}\titlerule*[4pt]{$\cdot$}\contentspage}
 \titlecontents{section}[2em]{\vspace{0.1\baselineskip}\songti\zihao{-4}}{\thecontentslabel\ }{}
         {\hspace{.5em}\titlerule*[4pt]{$\cdot$}\contentspage}
 \titlecontents{subsection}[4em]{\vspace{0.1\baselineskip}\songti\zihao{-4}}{\thecontentslabel\ }{}
         {\hspace{.5em}\titlerule*[4pt]{$\cdot$}\contentspage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
