@@ -191,3 +191,7 @@ pdfborder=100, citecolor=black ]{hyperref}		% 书签设置
 \titlecontents{subsection}[4em]{\vspace{0.1\baselineskip}\songti\zihao{-4}}{\thecontentslabel\ }{}
         {\hspace{.5em}\titlerule*[4pt]{$\cdot$}\contentspage}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%定义摄氏度单位符号 \celsius ，在公式和文本中都可使用%%%%
+\def\celsius{\ensuremath{^\circ\hspace{-0.09em}\mathrm{C}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
