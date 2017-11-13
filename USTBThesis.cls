@@ -53,6 +53,7 @@ pdfborder=100, citecolor=black ]{hyperref}		% 书签设置
 \usepackage{lastpage}   %得到论文页数
 \usepackage{subfig}
 \usepackage{enumerate}	%自定义列表编号
+\usepackage{caption}    %图表标题设置
 %\usepackage{CJKvert}    %直排文字
 %%%%%%%%%%%%%%%%%%%%%%%%%论文信息%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %学校
@@ -177,7 +178,7 @@ pdfborder=100, citecolor=black ]{hyperref}		% 书签设置
 \renewcommand{\thetable}{\thechapter-\arabic{table}}
 \@addtoreset{equation}{chapter}
 \makeatother
-\captionsetup{font=small}
+\captionsetup{font={footnotesize,bf}, labelsep=space}
 \renewcommand\theequation{\arabic{chapter}-\arabic{equation}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
