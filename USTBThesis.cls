@@ -56,8 +56,8 @@ pdfborder=100, citecolor=black ]{hyperref}		% 书签设置
 \usepackage{caption}    %图表标题设置
 
 \usepackage{listings}   %插入程序代码
-\lstset{breaklines}%这条命令可以让LaTeX自动将长的代码行换行排版
-\lstset{extendedchars=false}%这一条命令可以解决代码跨页时，章节标题，页眉等汉字不显示的问题
+\lstset{breaklines} %这条命令可以让LaTeX自动将长的代码行换行排版
+\lstset{extendedchars=false}    %这一条命令可以解决代码跨页时，章节标题，页眉等汉字不显示的问题
 
 %\usepackage{CJKvert}    %直排文字
 %%%%%%%%%%%%%%%%%%%%%%%%%论文信息%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
