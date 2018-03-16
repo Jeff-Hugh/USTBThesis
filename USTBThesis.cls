@@ -25,37 +25,40 @@
 \ProcessOptions\relax
 % 引用ctexbook及基本设置
 \LoadClass[cs4size,a4paper,fancyhdr,twoside,UTF8]{ctexbook}[2007/10/19]
+%主要字体设置
+\setmainfont{Times New Roman}
+\setCJKmainfont{宋体}
 
-\usepackage[pdfstartview=FitH, CJKbookmarks=true, bookmarksnumbered=true,
+\RequirePackage[pdfstartview=FitH, CJKbookmarks=true, bookmarksnumbered=true,
 bookmarksopen=true, colorlinks=false, colorlinks=black,
 pdfborder=100, citecolor=black ]{hyperref}		% 书签设置
-\usepackage[super,square,numbers,sort&compress]{natbib}	%参考文献设置
-\usepackage{ulem}               %下划线强调
-\usepackage{fancyhdr}           %页眉页脚
-\usepackage{mathptmx}   %是英文字体为Times New Roman
-\usepackage{tabu}  %表格
-\usepackage{booktabs}   %表格线宏包
-\usepackage{tabularx}   %调整表格列宽
-\usepackage{multirow}   %表格合并
-\usepackage{array}      %数组宏包，用于表格宽度
-\usepackage{multicol}   %表格合并
-\usepackage{longtable}  %表格合并
-\usepackage{rotating}   %表格合并
-\usepackage[top=30mm, bottom=20mm, left=30mm, right=30mm]{geometry}  %页面边距设置
-\usepackage{graphicx}   %插图
-\usepackage{amsmath}    %公式换行
-\usepackage{titletoc}   %目录
-\usepackage{titlesec}	%章节
-\usepackage{listings}   %插入代码
-\usepackage{texnames}   %TeX家族标识符
-\usepackage{float}      %表格位置
-\usepackage{setspace}   %调整行距
-\usepackage{lastpage}   %得到论文页数
-\usepackage{subfig}
-\usepackage{enumerate}	%自定义列表编号
-\usepackage{caption}    %图表标题设置
+\RequirePackage[super,square,numbers,sort&compress]{natbib}	%参考文献设置
+\RequirePackage{ulem}               %下划线强调
+\RequirePackage{fancyhdr}           %页眉页脚
+\RequirePackage{mathptmx}   %是英文字体为Times New Roman
+\RequirePackage{tabu}  %表格
+\RequirePackage{booktabs}   %表格线宏包
+\RequirePackage{tabularx}   %调整表格列宽
+\RequirePackage{multirow}   %表格合并
+\RequirePackage{array}      %数组宏包，用于表格宽度
+\RequirePackage{multicol}   %表格合并
+\RequirePackage{longtable}  %表格合并
+\RequirePackage{rotating}   %表格合并
+\RequirePackage[top=30mm, bottom=20mm, left=30mm, right=30mm]{geometry}  %页面边距设置
+\RequirePackage{graphicx}   %插图
+\RequirePackage{amsmath}    %公式换行
+\RequirePackage{titletoc}   %目录
+\RequirePackage{titlesec}	%章节
+\RequirePackage{listings}   %插入代码
+\RequirePackage{texnames}   %TeX家族标识符
+\RequirePackage{float}      %表格位置
+\RequirePackage{setspace}   %调整行距
+\RequirePackage{lastpage}   %得到论文页数
+\RequirePackage{subfig}
+\RequirePackage{enumerate}	%自定义列表编号
+\RequirePackage{caption}    %图表标题设置
 
-\usepackage{listings}   %插入程序代码
+\RequirePackage{listings}   %插入程序代码
 \lstset{breaklines} %这条命令可以让LaTeX自动将长的代码行换行排版
 \lstset{extendedchars=false}    %这一条命令可以解决代码跨页时，章节标题，页眉等汉字不显示的问题
 
@@ -173,6 +176,7 @@ pdfborder=100, citecolor=black ]{hyperref}		% 书签设置
 \CTEXsetup[format={\raggedright}]{chapter}
 \CTEXsetup[format={\Large\bf}]{section}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %公式、图名和表名用“2-3”形式表示
