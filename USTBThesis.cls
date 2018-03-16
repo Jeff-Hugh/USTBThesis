@@ -29,9 +29,7 @@
 \setmainfont{Times New Roman}
 \setCJKmainfont{宋体}
 
-\RequirePackage[pdfstartview=FitH, CJKbookmarks=true, bookmarksnumbered=true,
-bookmarksopen=true, colorlinks=false, colorlinks=black,
-pdfborder=100, citecolor=black ]{hyperref}		% 书签设置
+\RequirePackage[pdfstartview=FitH, CJKbookmarks=true, bookmarksnumbered=true,bookmarksopen=true, colorlinks=false, colorlinks=black,pdfborder=100, citecolor=black ]{hyperref}		% 书签设置
 \RequirePackage[super,square,numbers,sort&compress]{natbib}	%参考文献设置
 \RequirePackage{ulem}               %下划线强调
 \RequirePackage{fancyhdr}           %页眉页脚
@@ -56,7 +54,6 @@ pdfborder=100, citecolor=black ]{hyperref}		% 书签设置
 \RequirePackage{lastpage}   %得到论文页数
 \RequirePackage{subfig}
 \RequirePackage{enumerate}	%自定义列表编号
-\RequirePackage{caption}    %图表标题设置
 
 \RequirePackage{listings}   %插入程序代码
 \lstset{breaklines} %这条命令可以让LaTeX自动将长的代码行换行排版
@@ -170,13 +167,69 @@ pdfborder=100, citecolor=black ]{hyperref}		% 书签设置
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%定义标题格式%%%%%%%%%%%%%%%%%%%%%%%%%%
-\CTEXsetup[number={\arabic{chapter}}]{chapter}
-\CTEXsetup[name={,}]{chapter}
-\CTEXsetup[format={\raggedright}]{chapter}
-\CTEXsetup[format={\Large\bf}]{section}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%一级标题
+\def\@chapter[#1]#2{%
+    \ifnum \c@secnumdepth >\m@ne
+        \if@mainmatter
+            \refstepcounter{chapter}%
+            %\typeout{\@chapapp\space\thechapter}
+            \typeout{\CTEXthechapter}%
+            \addcontentsline{toc}{chapter}
+            %{\protect\numberline {\thechapter}#1}%
+            {\protect\numberline{\CTEXthechapter\hspace{0.3em}}#1}%
+        \else
+            \addcontentsline{toc}{chapter}{#1}%
+        \fi
+    \else
+        \addcontentsline{toc}{chapter}{#1}%
+    \fi
+    \chaptermark{#1}%
+    \addtocontents{lof}{\protect\addvspace{10\p@}}%
+    \addtocontents{lot}{\protect\addvspace{10\p@}}%
+    \if@twocolumn
+        \@topnewpage[\@makechapterhead{#2}]%
+    \else
+        \@makechapterhead{#2}%
+        \@afterheading
+    \fi
+}
+ 
+\def\@makechapterhead#1{%
+    \vskip 17pt
+    %\vspace*{\CTEX@chapter@beforeskip}%
+    {\normalfont \parindent \z@ \raggedright
+    %{\normalfont \parindent \CTEX@chapter@indent \CTEX@chapter@format
+    \ifnum \c@secnumdepth >\m@ne
+        \if@mainmatter
+            %  \bfseries \space\nobreak
+            %\vskip 20\p@  \@chapapp \thechapter
+            \CTEX@chaptername \zihao{-3} \heiti
+        \fi
+    \fi
+    \interlinepenalty\@M
+    %\Huge \bfseries #1\par\nobreak
+    \CTEX@chapter@titleformat #1\par\nobreak
+    \vskip 17pt
+    %\vskip \CTEX@chapter@afterskip
+    }
+}
 
+%%%%%%%二级标题
+\renewcommand\section{\@startsection{section}{1}{\z@}%
+    {13pt \@plus 2pt \@minus 2pt}%
+    {13pt \@plus 2pt \@minus 2pt}%
+    { \zihao{4} \raggedright \bf \heiti}%
+}
+%%%%%%%三级标题
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+    {13pt \@plus 2pt \@minus 2pt}%
+    {13pt \@plus 2pt \@minus 2pt}%
+    { \zihao{4} \raggedright \bf \heiti}%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 设置行距
+\renewcommand{\baselinestretch}{1.3} \normalsize
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %公式、图名和表名用“2-3”形式表示
@@ -187,8 +240,16 @@ pdfborder=100, citecolor=black ]{hyperref}		% 书签设置
 \renewcommand{\thetable}{\thechapter-\arabic{table}}
 \@addtoreset{equation}{chapter}
 \makeatother
-\captionsetup{font={footnotesize,bf}, labelsep=space}
 \renewcommand\theequation{\arabic{chapter}-\arabic{equation}}
+
+\RequirePackage{caption}    %图表标题设置
+\DeclareCaptionFont{heiti}{\heiti}
+\DeclareCaptionFont{wuhao}{\zihao{5}}
+\captionsetup[table]{font={wuhao,bf,heiti},labelsep=space,skip=0.5ex,
+    position=top}
+\captionsetup[figure]{font={wuhao,bf,heiti},labelsep=space,skip=0.5ex,
+    position=bottom}
+    
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%目录%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
