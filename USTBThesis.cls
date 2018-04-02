@@ -25,9 +25,11 @@
 \ProcessOptions\relax
 % 引用ctexbook及基本设置
 \LoadClass[cs4size,a4paper,fancyhdr,twoside,UTF8]{ctexbook}[2007/10/19]
+
+
 %主要字体设置
+\setCJKmainfont{SimSun}
 \setmainfont{Times New Roman}
-\setCJKmainfont{宋体}
 
 \RequirePackage[pdfstartview=FitH, CJKbookmarks=true, bookmarksnumbered=true,bookmarksopen=true, colorlinks=false, colorlinks=black,pdfborder=100, citecolor=black ]{hyperref}		% 书签设置
 \RequirePackage[super,square,numbers,sort&compress]{natbib}	%参考文献设置
@@ -44,7 +46,7 @@
 \RequirePackage{rotating}   %表格合并
 \RequirePackage[top=30mm, bottom=20mm, left=30mm, right=30mm]{geometry}  %页面边距设置
 \RequirePackage{graphicx}   %插图
-\RequirePackage{amsmath}    %公式换行
+\RequirePackage{amsmath,bm}    %公式换行
 \RequirePackage{titletoc}   %目录
 \RequirePackage{titlesec}	%章节
 \RequirePackage{listings}   %插入代码
