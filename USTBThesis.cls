@@ -6,8 +6,6 @@
 %       0.1
 %   Created
 %       2015.12.21 by JeffHugh@USTB
-%   Last Modified
-%       2015.12.21 by JeffHugh@USTB
 %
 
 %%%%%%%%%% class clarification %%%%%%%%%%
