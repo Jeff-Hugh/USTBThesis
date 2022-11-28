@@ -26,8 +26,14 @@
 
 
 %主要字体设置
-\setCJKmainfont{SimSun}
-\setmainfont{Times New Roman}
+\setCJKmainfont{SimSun.ttc}% I don't understand why this stupid university use a property font here. This is non-sense.
+\setCJKfamilyfont{zhsong}{SimSun.ttc}
+\renewcommand*{\songti}{\CJKfamily{zhsong}}
+\setCJKfamilyfont{zhhei}{SimHei.ttf}
+\renewcommand*{\heiti}{\CJKfamily{zhhei}}
+
+\setmainfont{tnr.ttf}
+
 
 \RequirePackage[pdfstartview=FitH, CJKbookmarks=true, bookmarksnumbered=true,bookmarksopen=true, colorlinks=false, colorlinks=black,pdfborder=100, citecolor=black ]{hyperref}		% 书签设置
 \RequirePackage[super,square,numbers,sort&compress]{natbib}	%参考文献设置
@@ -42,7 +48,7 @@
 \RequirePackage{multicol}   %表格合并
 \RequirePackage{longtable}  %表格合并
 \RequirePackage{rotating}   %表格合并
-\RequirePackage[top=30mm, bottom=20mm, left=30mm, right=30mm]{geometry}  %页面边距设置
+\RequirePackage[top=27mm, bottom=28mm, outer=3cm, inner=4cm]{geometry}  %页面边距设置
 \RequirePackage{graphicx}   %插图
 \RequirePackage{amsmath,bm}    %公式换行
 \RequirePackage{titletoc}   %目录
@@ -58,6 +64,20 @@
 \RequirePackage{listings}   %插入程序代码
 \lstset{breaklines} %这条命令可以让LaTeX自动将长的代码行换行排版
 \lstset{extendedchars=false}    %这一条命令可以解决代码跨页时，章节标题，页眉等汉字不显示的问题
+% Provides better toc mimicing ^_^
+\usepackage{titletoc}
+\titlecontents{figure}[0mm]%
+{\makebox{图~}}%
+{\makebox{\thecontentslabel\quad}}%
+{}%
+{\enspace\dotfill\enspace\thecontentspage}
+\titlecontents{table}[0mm]%
+{\makebox{表~}}%
+{\makebox{\thecontentslabel\quad}}%
+{}%
+{\enspace\dotfill\enspace\thecontentspage}
+
+
 
 %\usepackage{CJKvert}    %直排文字
 %%%%%%%%%%%%%%%%%%%%%%%%%论文信息%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -193,7 +213,7 @@
         \@afterheading
     \fi
 }
- 
+
 \def\@makechapterhead#1{%
     \vskip 17pt
     %\vspace*{\CTEX@chapter@beforeskip}%
@@ -226,6 +246,8 @@
     {13pt \@plus 2pt \@minus 2pt}%
     { \zihao{4} \raggedright \bf \heiti}%
 }
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% 设置行距
 \renewcommand{\baselinestretch}{1.3} \normalsize
@@ -242,6 +264,8 @@
 \makeatother
 \renewcommand\theequation{\arabic{chapter}-\arabic{equation}}
 
+
+
 \RequirePackage{caption}    %图表标题设置
 \DeclareCaptionFont{heiti}{\heiti}
 \DeclareCaptionFont{wuhao}{\zihao{5}}
@@ -249,7 +273,7 @@
     position=top}
 \captionsetup[figure]{font={wuhao,bf,heiti},labelsep=space,skip=0.5ex,
     position=bottom}
-    
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%目录%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
