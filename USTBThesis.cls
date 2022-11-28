@@ -32,7 +32,7 @@
 \setCJKfamilyfont{zhhei}{SimHei.ttf}
 \renewcommand*{\heiti}{\CJKfamily{zhhei}}
 
-\setmainfont{tnr.ttf}
+\setmainfont{tnr.ttf} % Times New Roman. Not Trap-Neuter-Return
 
 
 \RequirePackage[pdfstartview=FitH, CJKbookmarks=true, bookmarksnumbered=true,bookmarksopen=true, colorlinks=false, colorlinks=black,pdfborder=100, citecolor=black ]{hyperref}		% 书签设置
