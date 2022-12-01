@@ -27,12 +27,12 @@
 
 %主要字体设置
 \setCJKmainfont{SimSun.ttc}% I don't understand why this stupid university use a property font here. This is non-sense.
-\setCJKfamilyfont{zhsong}{SimSun.ttc}
-\renewcommand*{\songti}{\CJKfamily{zhsong}}
-\setCJKfamilyfont{zhhei}{SimHei.ttf}
-\renewcommand*{\heiti}{\CJKfamily{zhhei}}
+\setCJKfamilyfont{zhsongx}{SimSun.ttc}
+\renewcommand*{\songti}{\CJKfamily{zhsongx}}
+\setCJKfamilyfont{zhheix}{SimHei.ttf}
+\renewcommand*{\heiti}{\CJKfamily{zhheix}}
 
-\setmainfont{tnr.ttf} % Times New Roman. Not Trap-Neuter-Return
+\setmainfont{tnr.ttf}
 
 
 \RequirePackage[pdfstartview=FitH, CJKbookmarks=true, bookmarksnumbered=true,bookmarksopen=true, colorlinks=false, colorlinks=black,pdfborder=100, citecolor=black ]{hyperref}		% 书签设置
@@ -48,7 +48,7 @@
 \RequirePackage{multicol}   %表格合并
 \RequirePackage{longtable}  %表格合并
 \RequirePackage{rotating}   %表格合并
-\RequirePackage[top=27mm, bottom=28mm, outer=3cm, inner=4cm]{geometry}  %页面边距设置
+\RequirePackage[top=31mm, bottom=30mm, outer=3cm, inner=4cm,headsep=1.1cm]{geometry}  %页面边距设置
 \RequirePackage{graphicx}   %插图
 \RequirePackage{amsmath,bm}    %公式换行
 \RequirePackage{titletoc}   %目录
@@ -233,6 +233,7 @@
     %\vskip \CTEX@chapter@afterskip
     }
 }
+\renewcommand{\@seccntformat}[1]{\csname the#1\endcsname\ }
 
 %%%%%%%二级标题
 \renewcommand\section{\@startsection{section}{1}{\z@}%
@@ -250,7 +251,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% 设置行距
-\renewcommand{\baselinestretch}{1.3} \normalsize
+\renewcommand{\baselinestretch}{1.383} \normalsize % Magic number from https://github.com/liuzhaoboatenficomcn/Latex-template-for-University-of-Science-and-Technology-Beijing/
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -290,3 +291,6 @@
 %%%%定义摄氏度单位符号 \celsius ，在公式和文本中都可使用%%%%
 \def\celsius{\ensuremath{^\circ\hspace{-0.09em}\mathrm{C}}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%Footer, surround the page number by nice little dashs.
+\cfoot{-~\thepage~-}
